@@ -70,6 +70,7 @@ jobs:
           static_list: "blog"
           force_update: true
           debug: true 
+          
 
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
