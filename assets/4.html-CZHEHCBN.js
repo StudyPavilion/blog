@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c,d as r,a as e,f as a}from"./app-_vGTASzz.js";const n={},s=e("p",null,[e("code",null,"more"),a(" 注释之前的内容被视为文章摘要。")],-1);function _(l,m){return t(),c("div",null,[s,r(" more ")])}const i=o(n,[["render",_],["__file","4.html.vue"]]);export{i as default};
