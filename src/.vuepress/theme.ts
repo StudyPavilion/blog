@@ -103,7 +103,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "PDF"],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。

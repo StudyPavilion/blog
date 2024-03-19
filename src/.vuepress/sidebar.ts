@@ -24,6 +24,7 @@ export default sidebar({
         { text: "计算机组成原理", icon: "pen-to-square", link: "计算机组成原理/" },
         { text: "操作系统", icon: "pen-to-square", link: "操作系统/" },
         { text: "计算机网络", icon: "pen-to-square", link: "计算机网络/" },
+        { text: "Java", icon: "pen-to-square", link: "java/" },
         
       ],
       // children: "structure"
@@ -44,4 +45,5 @@ export default sidebar({
   "/course/计算机组成原理/": "structure",
   "/course/操作系统/": "structure",
   "/course/计算机网络/": "structure",
+  "/course/java/": "structure",
 });
