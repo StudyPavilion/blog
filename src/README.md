@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: 主页
 # heroImage: https://i.postimg.cc/0QWqpS9s/logo.jpg
 heroImage: https://i.postimg.cc/0QWqpS9s/logo.jpg
 heroText: 学习阁

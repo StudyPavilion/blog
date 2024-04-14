@@ -1,7 +1,9 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
-import { MR_HOPE_AVATAR } from "./logo.js";
+// import sidebar from "./sidebar.js";
+// import {zhNavbarConfig } from "./navbar.js";
+import {zhSidebarConfig } from "./sidebar/index.js";
+
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
@@ -22,9 +24,11 @@ export default hopeTheme({
 
   // 导航栏
   navbar,
+  // navbar: zhNavbarConfig,
 
   // 侧边栏
-  sidebar,
+  // sidebar,
+  sidebar: zhSidebarConfig,
 
   // 页脚
   footer: "",
@@ -36,38 +40,11 @@ export default hopeTheme({
     roundAvatar: true,
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
+      BiliBili: "https://space.bilibili.com/636126449?spm_id_from=333.1007.0.0",
+      Gitee: "https://gitee.com/StudyPavilion",
+      GitHub: "https://github.com/StudyPavilion",
+      Weibo: "https://weibo.com/u/6610771451",
+      Zhihu: "https://www.zhihu.com/people/chen-mi-xue-xi-wu-fa-zi-ba-36-54",
     },
   },
 
@@ -85,14 +62,18 @@ export default hopeTheme({
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
-
+  
   // 在这里配置主题提供的插件
   plugins: {
+
     blog: true,
     searchPro: true,
-        // searchPro: {
-        //   插件选项
-        // },
+    // search: true,
+    // docsearch: {
+    //   appId: "LDBQGQC8Q9",
+    //   apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
+    //   indexName: "mrhope",
+    // },
 
 
     // 在启用之前需要安装 @waline/client
@@ -103,7 +84,11 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard", "PDF"],
+      components: [
+        "Badge", 
+        "VPCard", 
+        "PDF",
+      ],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
