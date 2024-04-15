@@ -13,7 +13,8 @@ export default hopeTheme({
     url: "https://space.bilibili.com/636126449?spm_id_from=333.1007.0.0",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  // iconAssets: "fontawesome-with-brands",
+  iconAssets: "//at.alicdn.com/t/c/font_4508980_pqbxirnmsmk.css",
 
   logo: "/logo.jpg",
 

@@ -7,46 +7,27 @@ sticky: 20
 next: ./basic/
 ---
 
-此处是 Mr.Hope 存放的一些代码笔记。
+此处是 学习阁 存放的一些代码笔记。
 
 <!-- more -->
 
 ## 目录
 
-<!-- ### 基础
+### 基础
 
-- [基础知识](basic/README.md)
+<!-- - [基础知识](basic/README.md)
 
 - [Windows 基础](windows/README.md)
 
 - [GitHub 介绍](github/README.md) -->
+### 嵌入式开发
 
+- [STM32教程](../stm32/README.md)
+- [STM32 HAL库教程](../stm32/hal/README.md)
 
 ### 代码学习
 
 - [代码学习](language/README.md)
-
-<!-- - [如何学习一门语言](language/learning.md)
-
-- [JavaScript 教程](language/js/README.md)
-
-- [TypeScript 教程](language/typescript/README.md)
-
-- [Python 教程](language/python/README.md) (编写中...)
-
-- [Markdown 教程](language/markdown/README.md)
-
-- [YAML 教程](language/yaml/README.md)
-
-- [JSON 教程](language/json/README.md) -->
-
-<!-- ### APP
-
-- [Android 开发](android/README.md)
-
-### 后端开发
-
-- [后端开发](back-end/README.md) -->
 
 ### 代码学习网站
 

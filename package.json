@@ -19,6 +19,6 @@
     "vuepress-theme-hope": "2.0.0-rc.36"
   },
   "dependencies": {
-    "@docsearch/js": "3"
+    "@docsearch/js": "^3.6.0"
   }
 }
