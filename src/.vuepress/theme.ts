@@ -13,8 +13,11 @@ export default hopeTheme({
     url: "https://space.bilibili.com/636126449?spm_id_from=333.1007.0.0",
   },
 
-  // iconAssets: "fontawesome-with-brands",
-  iconAssets: "//at.alicdn.com/t/c/font_4508980_pqbxirnmsmk.css",
+  favicon: "/favicon.ico",
+
+  iconAssets: [
+    "//at.alicdn.com/t/c/font_4508980_pqbxirnmsmk.css",
+  ],
 
   logo: "/logo.jpg",
 
@@ -69,12 +72,6 @@ export default hopeTheme({
 
     blog: true,
     searchPro: true,
-    // search: true,
-    // docsearch: {
-    //   appId: "LDBQGQC8Q9",
-    //   apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
-    //   indexName: "mrhope",
-    // },
 
 
     // 在启用之前需要安装 @waline/client
