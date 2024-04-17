@@ -24,20 +24,20 @@ export default navbar([
       { text: "nvm", icon: "nvm", link: "nvm/" },
     ]
   },
-  {
-    text: "软件教程",
-    icon: "software",
-    prefix: "/software/",
-    children: [
-      {
-        text: "软件教程",
-        icon: "software",
-        link: "",
-        activeMatch: "^/software/$",
-      },
-      "git/",
-    ],
-  },
+  // {
+  //   text: "软件教程",
+  //   icon: "software",
+  //   prefix: "/software/",
+  //   children: [
+  //     {
+  //       text: "软件教程",
+  //       icon: "software",
+  //       link: "",
+  //       activeMatch: "^/software/$",
+  //     },
+  //     "git/",
+  //   ],
+  // },
 ]);
 
 

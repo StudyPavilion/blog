@@ -9,4 +9,7 @@ tag:
   - 实时操作系统
 ---
 
-<AutoCatalog />
+## 教程目录
+
+- [OneOS Lite教程](./oneos/README.md)
+- [RT-Thread 教程](./rt-thread/README.md)

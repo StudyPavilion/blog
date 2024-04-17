@@ -1,5 +1,5 @@
 ---
-title: OneOS Lite
+title: OneOS Lite教程
 # index: false
 icon: laptop-code
 category:
@@ -7,4 +7,5 @@ category:
   - OneOS Lite
 ---
 
-<AutoCatalog />
+<Catalog />
+<!-- <Catalog /> -->

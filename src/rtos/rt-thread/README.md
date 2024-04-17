@@ -11,4 +11,4 @@ tag:
   - RT-Thread
 ---
 
-<AutoCatalog />
+<Catalog />

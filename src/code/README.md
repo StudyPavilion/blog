@@ -23,7 +23,7 @@ next: ./basic/
 ### 嵌入式开发
 
 - [STM32教程](../stm32/README.md)
-- [STM32 HAL库教程](../stm32/hal/README.md)
+- [实时操作系统教程](../rtos/README.md)
 
 ### 代码学习
 
