@@ -6,8 +6,10 @@ import {zhSidebarConfig } from "./sidebar/index.js";
 
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://studypavilion.github.io/blog/",
 
+  license: "MIT",
+  
   author: {
     name: "学习阁",
     url: "https://space.bilibili.com/636126449?spm_id_from=333.1007.0.0",
@@ -22,7 +24,11 @@ export default hopeTheme({
   logo: "/logo.jpg",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
-  // repo: "https://gitee.com/StudyPavilion",
+  repo: "studypavilion/blog/",
+
+  repoLabel: "GitHub",
+
+  repoDisplay: true,
 
   docsDir: "src",
 
@@ -68,10 +74,31 @@ export default hopeTheme({
   // hotReload: true,
   
   // 在这里配置主题提供的插件
+  
   plugins: {
 
     blog: true,
+
     searchPro: true,
+
+    copyright: {
+      global: true,
+      // license: "MIT",
+      triggerLength: 100,
+    },
+
+    comment: {
+      // 选择一个评论服务
+      provider: "Giscus",
+
+      // 服务选项
+      repo: "StudyPavilion/blog",
+      repoId: "R_kgDOLOUMTA",
+      category: "Announcements",
+      categoryId: "DIC_kwDOLOUMTM4CexWE",
+    },
+
+    
 
 
     // 在启用之前需要安装 @waline/client

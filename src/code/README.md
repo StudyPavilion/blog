@@ -22,8 +22,8 @@ next: ./basic/
 - [GitHub 介绍](github/README.md) -->
 ### 嵌入式开发
 
-- [STM32教程](../stm32/README.md)
-- [实时操作系统教程](../rtos/README.md)
+- [STM32教程](./stm32/README.md)
+- [实时操作系统教程](./rtos/README.md)
 
 ### 代码学习
 
