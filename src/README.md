@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 # heroImage: https://i.postimg.cc/0QWqpS9s/logo.jpg
-heroImage: https://i.postimg.cc/0QWqpS9s/logo.jpg
+heroImage: /logo.jpg
 heroText: 学习阁
 # bgImage: https://cn.bing.com/th?id=OHR.LakeBledSunrise_ZH-CN5580697031_1920x1080.webp
 bgImage: https://file.mo7.cc/api/public/bz
