@@ -9,7 +9,7 @@ heroText: 学习阁
 # bgImage: https://cn.bing.com/th?id=OHR.LakeBledSunrise_ZH-CN5580697031_1920x1080.webp
 bgImage: https://file.mo7.cc/api/public/bz
 heroFullScreen: true
-tagline: 智者向内寻求力量，不智者向外寻求力量。
+tagline: 智者向内寻求力量，不智者向外寻求力量。<br> 君子生非异也，善假于物也。
 projects:
   - icon: project
     name: 项目名称
