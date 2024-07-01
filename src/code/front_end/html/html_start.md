@@ -474,11 +474,11 @@ tag:
 
    vscode => 管理 => 设置 => 扩展 => Emmet => Variables => 添加项 => 选择lang项 => 将值修改为zh-CN => 点击确定
 
-   ![image-20240701222215221](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701222215221.png)
+   ![管理 = >设置](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701222215221.png)
    
-   ![image-20240701223344648](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223344648.png)
+   ![扩展 => Emmet => Variables => 添加项](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223344648.png)
    
-   ![image-20240701223744131](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223744131.png)
+   ![选择lang项 => 将值修改为zh-CN => 点击确定](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223744131.png)
    
    测试
    
@@ -503,12 +503,12 @@ tag:
 
    > [!tip]
    >
-   > vscode打开哪个文件夹，就把**favicon.ico** 图片放在这个文件夹
+   > vscode打开哪个文件夹，就把 **favicon.ico** 图片放在这个文件夹
    >
    > 示例：
    >
-   > ![image-20240701224719419](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224719419.png)
+   > ![favicon.ico位置](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224719419.png)
    >
    > 效果：
    >
-   > ![image-20240701224941756](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224941756.png)
+   > ![网页图标](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224941756.png)
