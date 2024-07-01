@@ -12,7 +12,7 @@ tag:
 ---
 ## 1.认识两位先驱
 
-![两位先驱](./../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240626232140909.png)
+![两位先驱](./../../../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240626232140909.png)
 
 ## 2. 计算机基础知识
 
@@ -30,7 +30,7 @@ tag:
 
 6. 整体图示：
 
-![整体图示](./../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240626232459277.png)
+![整体图示](./../../../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240626232459277.png)
 
 ## 3. C/S架构与B/S架构
 
@@ -54,11 +54,11 @@ tag:
 
 **1.各大浏览器市场份额：**
 
-![各大浏览器市场份额](./../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240627002127829.png)
+![各大浏览器市场份额](./../../../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240627002127829.png)
 
 **2.常见浏览器的内核：**
 
-![常见浏览器的内核](./../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240627002159273.png)
+![常见浏览器的内核](./../../../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240627002159273.png)
 
 
 
@@ -72,4 +72,4 @@ tag:
 
 4. 网页标准
 
-![网页标准](./../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240627002252096.png)
+![网页标准](./../../../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240627002252096.png)
