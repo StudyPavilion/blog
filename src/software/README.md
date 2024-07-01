@@ -8,4 +8,4 @@ tag:
   - 软件教程
 ---
 
-<AutoCatalog />
+<Catalog />

@@ -18,7 +18,7 @@ export default hopeTheme({
   favicon: "/favicon.ico",
 
   iconAssets: [
-    "//at.alicdn.com/t/c/font_4508980_pqbxirnmsmk.css",
+    "//at.alicdn.com/t/c/font_4508980_binzyp4qfz4.css",
   ],
 
   logo: "/logo.jpg",
@@ -47,7 +47,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     description: "正在翻身的咸鱼",
-    roundAvatar: true,
+    // roundAvatar: true,
     intro: "/intro.html",
     medias: {
       BiliBili: "https://space.bilibili.com/636126449?spm_id_from=333.1007.0.0",
@@ -118,6 +118,7 @@ export default hopeTheme({
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
+      alert: true,
       align: true,
       attrs: true,
       codetabs: true,

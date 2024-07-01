@@ -1,6 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 import { code } from "./code.js";
 import { stm32 } from "./stm32.js";
+import { front_end } from "./front_end.js";
 
 export const zhSidebarConfig = sidebar({
 
@@ -10,7 +11,10 @@ export const zhSidebarConfig = sidebar({
 
   "/code/stm32/hal": "structure",
 
-  // "/stm32/hal": stm32,
+  "/code/front_end": front_end,
+  "/code/front_end/html": "structure",
+  "/code/front_end/css": "structure",
+
 
 
   // fallback

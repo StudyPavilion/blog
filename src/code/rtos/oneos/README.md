@@ -7,5 +7,4 @@ category:
   - OneOS Lite
 ---
 
-<Catalog />
-<!-- <Catalog /> -->
+ <Catalog/>

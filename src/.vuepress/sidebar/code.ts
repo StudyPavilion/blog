@@ -5,13 +5,22 @@ export const code = arraySidebar([
   {
     text: "嵌入式开发",
     icon: "code",
-    // prefix: "stm32/",
-    // link: "stm32/",
     children: [
       "stm32/",
       "rtos/",
     ],
     
+  },
+
+  {
+    text: "前端开发", 
+    icon: "code", 
+    prefix: "front_end",
+    link: "front_end/",
+    children: [
+      "html/",
+      "css/",
+    ],
   },
 
   {
