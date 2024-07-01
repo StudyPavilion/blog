@@ -8,7 +8,6 @@ export const zhSidebarConfig = sidebar({
   "/code/": code,
 
   "/code/stm32/": stm32,
-
   "/code/stm32/hal": "structure",
 
   "/code/front_end": front_end,

@@ -53,7 +53,7 @@ tag:
 
    > [!tip]
    >
-   > ![双标签](./../../src/.vuepress/public/assets/images/html_start.assets/image-20240627202037012.png)
+   > ![双标签](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627202037012.png)
    >
    >  示例代码：
    >
@@ -65,7 +65,7 @@ tag:
 
     > [!tip]
     >
-    > ![单标签](./../../src/.vuepress/public/assets/images/html_start.assets/image-20240627202458692.png)
+    > ![单标签](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627202458692.png)
     >
     > ```html
     > <input>
@@ -109,7 +109,7 @@ tag:
 
    > [!tip]
    >
-   > ![标签属性](./../../src/.vuepress/public/assets/images/html_start.assets/image-20240627203318654.png)
+   > ![标签属性](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627203318654.png)
    >
    > 例如：
    >
@@ -194,7 +194,7 @@ tag:
    >
    > 4. 图示：
    >
-   >    ![图示](./../../src/.vuepress/public/assets/images/html_start.assets/image-20240627235101564.png)
+   >    ![图示](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627235101564.png)
    >
    > 5. 代码：
    >
@@ -226,7 +226,7 @@ tag:
    >
    >    :::
    >
-   >    ![网页标题](./../../src/.vuepress/public/assets/images/html_start.assets/image-20240628000336082.png)
+   >    ![网页标题](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240628000336082.png)
 
 ## 5. 安装 VSCode
 
@@ -287,6 +287,16 @@ tag:
    	<!-- 我是一段注释 -->
    -->
    ```
+
+5. vscode注释快捷键 **Ctrl** + **/**
+
+   > [!tip]
+   >
+   > 1. 单行注释：光标放在目标行，按下快捷键 **Ctrl** + **/** 
+   > 2. 多行注释：选中需要注释的内容（行），按下快捷键 **Ctrl** + **/** 
+   > 3. 对已注释的代码再次使用快捷键可取消注释
+
+   
 
    
 
@@ -390,7 +400,7 @@ tag:
     >
     > 1. 第一种写法（ 语言-国家/地区 ），例如：
     > **zh-CN** ：中文-中国大陆（简体中文）
-    > z**h-TW** ：中文-中国台湾（繁体中文）
+    > **zh-TW** ：中文-中国台湾（繁体中文）
     > **zh** ：中文
     > **en-US** ：英语-美国
     > **en-GB** ：英语-英国
@@ -419,10 +429,86 @@ tag:
 
 2. 输入 **!** ，随后回车即可快速生成标准结构。
 
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+   </head>
+   <body>
+       
+   </body>
+   </html>
+   ```
+
    > [!tip]
    >
-   > 生成的结构中，有两个meta标签，我们暂时用不到，可以先删掉。
+   > 1. 生成的结构中，有两个meta标签，我们暂时用不到，可以先删掉。
+   >
+   > 2. vscode 删除快捷键：**Ctrl + Shift + k** 
+   >
+   >    单行删除：光标放在目标行，按下快捷键 **Ctrl + Shift + k** 
+   >
+   >    多行删除：选中需要注释的内容（行），按下快捷键 **Ctrl + Shift + k** 
 
-3. 配置**VScode** 的内置插件**emmet** ，可以对生成结构的属性进行定制。
+   
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <title>Document</title>
+   </head>
+   <body>
+       
+   </body>
+   </html>
+   ```
+
+3. 配置**VScode** 的内置插件 **Emmet** ，可以对生成结构的属性进行定制。
+
+   修改自动生成标准结构的 lang 默认值
+
+   vscode => 管理 => 设置 => 扩展 => Emmet => Variables => 添加项 => 选择lang项 => 将值修改为zh-CN => 点击确定
+
+   ![image-20240701222215221](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701222215221.png)
+   
+   ![image-20240701223344648](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223344648.png)
+   
+   ![image-20240701223744131](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223744131.png)
+   
+   测试
+   
+   ```html
+   <!DOCTYPE html>
+   <html lang="zh-CN">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+   </head>
+   <body>
+       
+   </body>
+   </html>
+   ```
+   
+   
+
 
 4. 在存放代码的文件夹中，存放一个**favicon.ico** 图片，可配置网站图标。
+
+   > [!tip]
+   >
+   > vscode打开哪个文件夹，就把**favicon.ico** 图片放在这个文件夹
+   >
+   > 示例：
+   >
+   > ![image-20240701224719419](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224719419.png)
+   >
+   > 效果：
+   >
+   > ![image-20240701224941756](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224941756.png)
