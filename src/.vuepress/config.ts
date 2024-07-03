@@ -4,8 +4,8 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  // base: "/blog/",
-  base: "/",
+  base: "/blog/",
+  // base: "/",
 
   lang: "zh-CN",
   title: "学习阁",
