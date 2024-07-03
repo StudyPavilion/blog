@@ -28,7 +28,7 @@ tag:
 
    应用软件：微信、QQ、王者荣耀、PhotoShop 等。
 
-6. 整体图示：
+4. 整体图示：
 
 ![整体图示](./../../../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240626232459277.png)
 
@@ -59,8 +59,6 @@ tag:
 **2.常见浏览器的内核：**
 
 ![常见浏览器的内核](./../../../../src/.vuepress/public/assets/images/prior_knowledge.assets/image-20240627002159273.png)
-
-
 
 ## 5. 网页相关概念
 

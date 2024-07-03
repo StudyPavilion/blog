@@ -11,9 +11,9 @@ tag:
   - HTML
 ---
 
-## 三、准备工作
 
-### 1. 常用电脑设置
+
+## 1. 常用电脑设置
 
 1. 查看文件夹内容的几种布局。
 
@@ -25,7 +25,7 @@ tag:
 
 4. 配置文件的默认打开方式。
 
-### 2. 安装Chrome浏览器
+## 2. 安装Chrome浏览器
 
 1. 下载地址： [**https://www.google.cn/chrome**](https://www.google.cn/chrome**) 。
 

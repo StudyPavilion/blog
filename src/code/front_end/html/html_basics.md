@@ -13,8 +13,8 @@ tag:
 
 ## 1. 开发者文档
 
-1. W3C官网： www.w3c.org
-2. W3School： www.w3school.com.cn
+1. W3C官网： <www.w3c.org>
+2. W3School： <www.w3school.com.cn>
 3. MDN： [MDN Web Docs](https://developer.mozilla.org/zh-CN/) —— 平时用的最多。
 
 ## 2. 排版标签

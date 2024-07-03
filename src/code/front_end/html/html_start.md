@@ -55,13 +55,13 @@ tag:
    >
    > ![双标签](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627202037012.png)
    >
-   >  示例代码：
+   > 示例代码：
    >
-   >    ```html
-   >    <marquee> 尚硅谷，让天下没有难学的技术！</marquee>
+   > ```html
+   > <marquee> 尚硅谷，让天下没有难学的技术！</marquee>
    >    ```
 
- 5. 单标签：
+5. 单标签：
 
     > [!tip]
     >
@@ -79,7 +79,7 @@ tag:
     >
     > ::: 
 
- 6. 标签之间的关系：并列关系、嵌套关系，可以使用 **tab** 键进行缩进：
+6. 标签之间的关系：并列关系、嵌套关系，可以使用 **tab** 键进行缩进：
 
     ```html
     <marquee>
@@ -93,7 +93,7 @@ tag:
 
     ```html
     <marquee>
-    	尚硅谷，让天下没有难学的技术！
+     尚硅谷，让天下没有难学的技术！
         <input>
     </marquee>
     <input>
@@ -138,8 +138,6 @@ tag:
       ```html
       <input disabled>
       ```
-
-      
 
       :::
 4. 注意点：
