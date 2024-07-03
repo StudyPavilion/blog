@@ -4,8 +4,9 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/blog/",
+  // base: "/blog/",
   // base: "/",
+  base: process.env.NETLIFY ? "/" : "/blog/",
 
   lang: "zh-CN",
   title: "学习阁",
