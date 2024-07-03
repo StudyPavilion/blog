@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://studypavilion.github.io/blog/sitemap.xml
+Sitemap: https://studypavilion.github.io/blog/blog/sitemap.xml
