@@ -2,6 +2,10 @@
 date: 2024-06-26
 title: HTML4
 icon: code
+dir:
+  order: 1
+  text: HTML 4
+  link: true
 star: true
 sticky: 20
 ---

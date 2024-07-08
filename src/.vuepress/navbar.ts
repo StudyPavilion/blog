@@ -5,14 +5,8 @@ export default navbar([
   {
     text: "代码笔记",
     icon: "code",
-    children: [
-      {
-        text: "代码笔记",
-        icon: "code",
-        link: "/code/",
-        activeMatch: "^/code/$",
-      },
-    ],
+    link: "/code/",
+    activeMatch: "^/code/$",
   },
   {
     text: "软件教程",

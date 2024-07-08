@@ -10,7 +10,8 @@ export const zhSidebarConfig = sidebar({
   "/code/stm32/": stm32,
   "/code/stm32/hal": "structure",
 
-  "/code/front_end": front_end,
+  // "/code/front_end": front_end,
+  "/code/front_end": "structure",
   "/code/front_end/html": "structure",
   "/code/front_end/css": "structure",
 
