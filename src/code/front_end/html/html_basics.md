@@ -27,11 +27,11 @@ tag:
 |    p    | 段落                                           |      双      |
 |   div   | 没有任何含义，用于整体布局（生活中的包装袋）。 |      双      |
 
-1. <font color='#e96900'>h1</font> 最好写一个， <font color='#e96900'>h2~h6</font> 能适当多写。
+1. <span style="color: #e96900;">h1</span> 最好写一个， <span style="color: #e96900;">h2~h6</span> 能适当多写。
 
-2. <font color='#e96900'>h1~h6</font> 不能互相嵌套，例如： h1 标签中最好不要写 <font color='#e96900'>h2</font> 标签了。
+2. <span style="color: #e96900;">h1~h6</span> 不能互相嵌套，例如： h1 标签中最好不要写 <span style="color: #e96900;">h2</span> 标签了。
 
-3. <font color='#e96900'>p</font> 标签很特殊！它里面不能有：<font color='#e96900'> h1~h6</font> 、<font color='#e96900'>p</font> 、<font color='#e96900'>div </font>标签（暂时先这样记，后面会说规律）。
+3. <span style="color: #e96900;">p</span> 标签很特殊！它里面不能有：<span style="color: #e96900;"> h1~h6</span> 、<span style="color: #e96900;">p</span> 、<span style="color: #e96900;">div </span>标签（暂时先这样记，后面会说规律）。
 
 4. 示例：
 
@@ -77,38 +77,38 @@ tag:
 
 > [!tip]
 >
-> VSCode 快捷键：光标移到下一行快捷键（不带内容）： <font color='#e96900'>**Ctrl + Enter** </font>
+> VSCode 快捷键：光标移到下一行快捷键（不带内容）： <span style="color: #e96900;">**Ctrl + Enter** </span>
 
 ## 3. 语义化标签
 
 1. 概念：用特定的标签，去表达特定的含义。
-2. 原则：标签的默认效果不重要（后期可以通过 <font color='#e96900'>CSS</font> 随便控制效果），语义最重要！
-3. 举例：对于 <font color='#e96900'>h1</font> 标签，效果是文字很大（不重要），语义是网页主要内容（很重要）。
+2. 原则：标签的默认效果不重要（后期可以通过 <span style="color: #e96900;">CSS</span> 随便控制效果），语义最重要！
+3. 举例：对于 <span style="color: #e96900;">h1</span> 标签，效果是文字很大（不重要），语义是网页主要内容（很重要）。
 4. 优势：
    1. 代码结构清晰可读性强。
-   2. 有利于 **<font color='blue'>SEO</font>**（搜索引擎优化）。
+   2. 有利于 **<span style="color: blue;">SEO</span>**（搜索引擎优化）。
    3. 方便设备解析（如屏幕阅读器、盲人阅读器等）。
 
 ## 4. 块级元素 与 行内元素
 
 1. 块级元素：独占一行（排版标签都是块级元素）。
 
-2. 行内元素：不独占一行（目前只学了： <font color='#e96900'>input</font> ，稍后会学习更多）。
+2. 行内元素：不独占一行（目前只学了： <span style="color: #e96900;">input</span> ，稍后会学习更多）。
 
 3. 使用原则：
 
    > [!tip]
    >
-   > 1. **块级元素** 中 **<font color='red'>能</font>** 写 **行内元素** 和 **块级元素**（简单记：块级元素中几乎什么都能写）。
-   > 2. **行内元素** 中 **<font color='red'>能</font>** 写 **行内元素**，但 **<font color='red'>不能</font>** 写 **块级元素**。
+   > 1. **块级元素** 中 **<span style="color: red;">能</span>** 写 **行内元素** 和 **块级元素**（简单记：块级元素中几乎什么都能写）。
+   > 2. **行内元素** 中 **<span style="color: red;">能</span>** 写 **行内元素**，但 **<span style="color: red;">不能</span>** 写 **块级元素**。
    >
    > 3. 一些特殊的规则：
    >
-   >    - <font color='#e96900'>h1~h6</font> 不能互相嵌套。
+   >    - <span style="color: #e96900;">h1~h6</span> 不能互相嵌套。
    >
-   >    - <font color='#e96900'>p</font> 中不要写块级元素。
+   >    - <span style="color: #e96900;">p</span> 中不要写块级元素。
    >
-   > 备注：<font color='#e96900'> **marquee**</font> 元素设计的初衷是：让文字有动画效果，但如今我们可以通过 <font color='#e96900'>**CSS**</font> 来实现了，而且还可以实现的更加炫酷，所以 **<font color='#e96900'>marquee</font>** 标签已经：**过时了**（废弃了），不推荐使用。我们只是在开篇的时候，用他做了一个引子而已，在后续的学习过程中，这些已经废弃的标签，我们直接跳过。
+   > 备注：<span style="color: #e96900;"> **marquee**</span> 元素设计的初衷是：让文字有动画效果，但如今我们可以通过 <span style="color: #e96900;">**CSS**</span> 来实现了，而且还可以实现的更加炫酷，所以 **<span style="color: #e96900;">marquee</span>** 标签已经：**过时了**（废弃了），不推荐使用。我们只是在开篇的时候，用他做了一个引子而已，在后续的学习过程中，这些已经废弃的标签，我们直接跳过。
 
 4. 示例
 
@@ -163,11 +163,11 @@ tag:
 >
 > VSCode 快捷键：
 >
-> 快速复制一行代码至上一行： <font color='#e96900'>**Shift + Alt + ↑**</font> 
+> 快速复制一行代码至上一行： <span style="color: #e96900;">**Shift + Alt + ↑**</span> 
 >
-> 快速复制一行代码至下一行：<font color='#e96900'> **Shift + Alt + ↓** </font>
+> 快速复制一行代码至下一行：<span style="color: #e96900;"> **Shift + Alt + ↓** </span>
 >
-> 生活中的例子： **<font color='#e96900'>div</font>** 是大包装袋， **<font color='#e96900'>span</font>** 是小包装袋。
+> 生活中的例子： **<span style="color: #e96900;">div</span>** 是大包装袋， **<span style="color: #e96900;">span</span>** 是小包装袋。
 
 5. 示例
 
@@ -207,33 +207,33 @@ tag:
 
 |                            标签名                            | 标签语义                                                     | 单 /双 标签 |
 | :----------------------------------------------------------: | ------------------------------------------------------------ | :---------: |
-|              <font color='#e96900'>cite</font>               | 作品标题（书籍、歌曲、电影、电视节目、绘画、雕塑）           |     双      |
-|               <font color='#e96900'>dfn</font>               | 特殊术语 ，或专属名词                                        |     双      |
-| <font color='#e96900'>del </font>与 <font color='#e96900'>ins</font> | 删除的文本 【与】 插入的文本                                 |     双      |
-| <font color='#e96900'>sub </font>与 <font color='#e96900'>sup</font> | 下标文字 【与】 上标文字                                     |     双      |
-|              <font color='#e96900'>code</font>               | 一段代码                                                     |     双      |
-|              <font color='#e96900'>samp</font>               | 从正常的上下文中，将某些内容提取出来，例如：标识设备输出     |     双      |
-|               <font color='#e96900'>kbd</font>               | 键盘文本，表示文本是通过键盘输入的，经常用在与计算机相关的手册中 |     双      |
-|              <font color='#e96900'>abbr</font>               | 缩写，最好配合上 <font color='#e96900'>title </font>属性     |     双      |
-|               <font color='#e96900'>bdo</font>               | 更改文本方向，要配合 <font color='#e96900'>dir </font>属性，可选值: <font color='#e96900'>ltr </font>（默认值）、  <font color='#e96900'>rtl</font> |     双      |
-|               <font color='#e96900'>var</font>               | 标记变量，可以与 <font color='#e96900'>code </font>标签一起使用 |     双      |
-|              <font color='#e96900'>small</font>              | 附属细则，例如：包括版权、法律文本。—— 很少使用              |     双      |
-|                <font color='#e96900'>b</font>                | 摘要中的关键字、评论中的产品名称。—— 很少使用                |     双      |
-|                <font color='#e96900'>i</font>                | 本意是：人物的思想活动、所说的话等等。  现在多用于：呈现<font color='red'>字体图标</font>（后面要讲的内容）。 |     双      |
-|                <font color='#e96900'>u</font>                | 与正常内容有反差文本，例如：错的单词、不合适的描述等。——很少使用 |     双      |
-|                <font color='#e96900'>q</font>                | 短引用 —— 很少使用                                           |     双      |
-|           <font color='#e96900'>blockquote</font>            | 长引用 —— 很少使用                                           |     双      |
-|             <font color='#e96900'>address</font>             | 地址信息                                                     |     双      |
+|              <span style="color: #e96900;">cite</span>               | 作品标题（书籍、歌曲、电影、电视节目、绘画、雕塑）           |     双      |
+|               <span style="color: #e96900;">dfn</span>               | 特殊术语 ，或专属名词                                        |     双      |
+| <span style="color: #e96900;">del </span>与 <span style="color: #e96900;">ins</span> | 删除的文本 【与】 插入的文本                                 |     双      |
+| <span style="color: #e96900;">sub </span>与 <span style="color: #e96900;">sup</span> | 下标文字 【与】 上标文字                                     |     双      |
+|              <span style="color: #e96900;">code</span>               | 一段代码                                                     |     双      |
+|              <span style="color: #e96900;">samp</span>               | 从正常的上下文中，将某些内容提取出来，例如：标识设备输出     |     双      |
+|               <span style="color: #e96900;">kbd</span>               | 键盘文本，表示文本是通过键盘输入的，经常用在与计算机相关的手册中 |     双      |
+|              <span style="color: #e96900;">abbr</span>               | 缩写，最好配合上 <span style="color: #e96900;">title </span>属性     |     双      |
+|               <span style="color: #e96900;">bdo</span>               | 更改文本方向，要配合 <span style="color: #e96900;">dir </span>属性，可选值: <span style="color: #e96900;">ltr </span>（默认值）、  <span style="color: #e96900;">rtl</span> |     双      |
+|               <span style="color: #e96900;">var</span>               | 标记变量，可以与 <span style="color: #e96900;">code </span>标签一起使用 |     双      |
+|              <span style="color: #e96900;">small</span>              | 附属细则，例如：包括版权、法律文本。—— 很少使用              |     双      |
+|                <span style="color: #e96900;">b</span>                | 摘要中的关键字、评论中的产品名称。—— 很少使用                |     双      |
+|                <span style="color: #e96900;">i</span>                | 本意是：人物的思想活动、所说的话等等。  现在多用于：呈现<span style="color: red;">字体图标</span>（后面要讲的内容）。 |     双      |
+|                <span style="color: #e96900;">u</span>                | 与正常内容有反差文本，例如：错的单词、不合适的描述等。——很少使用 |     双      |
+|                <span style="color: #e96900;">q</span>                | 短引用 —— 很少使用                                           |     双      |
+|           <span style="color: #e96900;">blockquote</span>            | 长引用 —— 很少使用                                           |     双      |
+|             <span style="color: #e96900;">address</span>             | 地址信息                                                     |     双      |
 
 > [!tip]
 >
 > 备注：
 > 1. 这些不常用的文本标签，编码时不用过于纠结（酌情而定，不用也没毛病）。
-> 2. **<font color='#e96900'>blockquote</font>** 与 **<font color='#e96900'>address</font>** 是块级元素，其他的文本标签，都是行内元素。
+> 2. **<span style="color: #e96900;">blockquote</span>** 与 **<span style="color: #e96900;">address</span>** 是块级元素，其他的文本标签，都是行内元素。
 > 3. 有些语义感不强的标签，我们很少使用，例如：
->     **<font color='#e96900'>small</font>** 、**<font color='#e96900'>b</font>** 、**<font color='#e96900'>u</font>** 、**<font color='#e96900'>q</font>** 、**<font color='#e96900'>blockquote</font>**
+>     **<span style="color: #e96900;">small</span>** 、**<span style="color: #e96900;">b</span>** 、**<span style="color: #e96900;">u</span>** 、**<span style="color: #e96900;">q</span>** 、**<span style="color: #e96900;">blockquote</span>**
 > 4. HTML标签太多了！记住那些：重要的、语义感强的标签即可；截止目前，有这些：
->     **<font color='#e96900'>h1~h6</font>** 、**<font color='#e96900'>p</font>** 、**<font color='#e96900'>div</font>** 、**<font color='#e96900'>em</font>** 、**<font color='#e96900'>strong</font>** 、**<font color='#e96900'>span</font>**
+>     **<span style="color: #e96900;">h1~h6</span>** 、**<span style="color: #e96900;">p</span>** 、**<span style="color: #e96900;">div</span>** 、**<span style="color: #e96900;">em</span>** 、**<span style="color: #e96900;">strong</span>** 、**<span style="color: #e96900;">span</span>**
 
 示例：
 
@@ -330,24 +330,24 @@ tag:
 
 |              标签名              | 标签语义 | 常用属性                                                     | 单 /双 标签 |
 | :------------------------------: | :------: | :----------------------------------------------------------- | :---------: |
-| <font color='#e96900'>img</font> |   图片   | <font color='#e96900'>src </font>：图片路径（又称：图片地址）—— 图片具体位置<br/><font color='#e96900'>alt </font>：图片描述  <br/><font color='#e96900'>width </font>：图片宽度，单位是像素，例如：200px 或 200 <br/><font color='#e96900'>height </font>：图片高度，单位是像素，例如：200px 或  200 |     单      |
+| <span style="color: #e96900;">img</span> |   图片   | <span style="color: #e96900;">src </span>：图片路径（又称：图片地址）—— 图片具体位置<br/><span style="color: #e96900;">alt </span>：图片描述  <br/><span style="color: #e96900;">width </span>：图片宽度，单位是像素，例如：200px 或 200 <br/><span style="color: #e96900;">height </span>：图片高度，单位是像素，例如：200px 或  200 |     单      |
 
 总结：
 
 > [!tip]
 >
-> 1. 像素（ <font color='#e96900'>px </font>）是一种单位，学到CSS 时，我们会详细讲解。
+> 1. 像素（ <span style="color: #e96900;">px </span>）是一种单位，学到CSS 时，我们会详细讲解。
 >
 > 2. 尽量不同时修改图片的宽和高，可能会造成比例失调。
 >
-> 3. 暂且认为 <font color='#e96900'>img </font>是行内元素（学到 <font color='#e96900'>CSS </font>时，会认识一个新的元素分类，目前咱们只知道：块、行内）。
+> 3. 暂且认为 <span style="color: #e96900;">img </span>是行内元素（学到 <span style="color: #e96900;">CSS </span>时，会认识一个新的元素分类，目前咱们只知道：块、行内）。
 >
-> 4. <font color='#e96900'>alt </font>属性的作用：
->- 搜索引擎通过 <font color='#e96900'>alt </font>属性，得知图片的内容。—— 最主要的作用。
+> 4. <span style="color: #e96900;">alt </span>属性的作用：
+>- 搜索引擎通过 <span style="color: #e96900;">alt </span>属性，得知图片的内容。—— 最主要的作用。
 >    
->- 当图片无法展示时候，有些浏览器会呈现 <font color='#e96900'>alt </font>属性的值。
+>- 当图片无法展示时候，有些浏览器会呈现 <span style="color: #e96900;">alt </span>属性的值。
 >    
->- 盲人阅读器会朗读 <font color='#e96900'>alt </font>属性的值。
+>- 盲人阅读器会朗读 <span style="color: #e96900;">alt </span>属性的值。
 
 示例：
 
@@ -369,7 +369,7 @@ tag:
 
 ### 2.  路径的分类 
 
-1. **相对路径**：以<font color='red'>**当前位置**</font>作为参考点，去建立路径。
+1. **相对路径**：以<span style="color: red;">**当前位置**</span>作为参考点，去建立路径。
 
    <table border="1" cellspacing="0">
            <thead>
@@ -383,26 +383,26 @@ tag:
            <tbody>
                <tr>
                    <td rowspan="3"><img src="./../../../.vuepress/public/assets/images/html_basics.assets/image-20240702174500270.png" alt="文件结构" style="zoom:50%;" /></td>
-                   <td><font color='#e96900'>./</font></td>
+                   <td><span style="color: #e96900;">./</span></td>
                    <td>同级</td>
-                   <td>引入【怪兽.jpg】<font color='#e96900'>&lt;img src="./怪兽.jpg"></font></td>
+                   <td>引入【怪兽.jpg】<span style="color: #e96900;">&lt;img src="./怪兽.jpg"></span></td>
                </tr>
                <tr>
-                   <td><font color='#e96900'>/</font></td>
+                   <td><span style="color: #e96900;">/</span></td>
                    <td>下一级</td>
-                   <td>引入【喜羊羊.jpg】：<font color='#e96900'>&lt;img src="./a/喜羊羊.jpg"></font></td>
+                   <td>引入【喜羊羊.jpg】：<span style="color: #e96900;">&lt;img src="./a/喜羊羊.jpg"></span></td>
                </tr>
                <tr>
-                   <td><font color='#e96900'>../</font></td>
+                   <td><span style="color: #e96900;">../</span></td>
                    <td>上一级</td>
-                   <td>引入【奥特曼.jpg】： <font color='#e96900'>&lt;img src="../奥特曼.jpg"></font></td>
+                   <td>引入【奥特曼.jpg】： <span style="color: #e96900;">&lt;img src="../奥特曼.jpg"></span></td>
                </tr>
            </tbody>
        </table>
    
-2. **绝对路径**：以 **<font color='red'>根位置</font>** 作为参考点，去建立路径。
+2. **绝对路径**：以 **<span style="color: red;">根位置</span>** 作为参考点，去建立路径。
 
-   1. 本地绝对路径： **<font color='#e96900'>E:/a/b/c/奥特曼.jpg</font>** 。（很少使用）
+   1. 本地绝对路径： **<span style="color: #e96900;">E:/a/b/c/奥特曼.jpg</span>** 。（很少使用）
 
    2. 网络绝对路径： [http://www.atguigu.com/images/index_new/logo.png ](http://www.atguigu.com/images/index_new/logo.png )
 
@@ -417,60 +417,60 @@ tag:
 >
 > VSCode 快捷键：
 >
-> VScode整个页面变大：<font color='#e96900'> **Ctrl + Shift + +**</font>
+> VScode整个页面变大：<span style="color: #e96900;"> **Ctrl + Shift + +**</span>
 >
-> VScode整个页面变小： <font color='#e96900'>**Ctrl + Shift + -**</font>
+> VScode整个页面变小： <span style="color: #e96900;">**Ctrl + Shift + -**</span>
 
 ### 3.  常见图片格式
 
-1. **<font color='#e96900'>jpg</font>** 格式：
+1. **<span style="color: #e96900;">jpg</span>** 格式：
 
    > [!tip]
    >
-   > 概述：扩展名为 **<font color='#e96900'>.jpg</font>** 或 **<font color='#e96900'>.jpeg</font>** ，是一种有损的压缩格式（把肉眼不容易观察出来的细节丢弃了）。
-   > 主要特点： **<font color='green'>支持的颜色丰富、占用空间较小</font>、** 不支持透明背景、不支持动态图。
-   > 使用场景：对图片细节 **<font color='blue'>没有极高要求</font>** 的场景，例如：网站的产品宣传图等 。—— 该格式网页中很常见。
+   > 概述：扩展名为 **<span style="color: #e96900;">.jpg</span>** 或 **<span style="color: #e96900;">.jpeg</span>** ，是一种有损的压缩格式（把肉眼不容易观察出来的细节丢弃了）。
+   > 主要特点： **<span style="color: green;">支持的颜色丰富、占用空间较小</span>、** 不支持透明背景、不支持动态图。
+   > 使用场景：对图片细节 **<span style="color: blue;">没有极高要求</span>** 的场景，例如：网站的产品宣传图等 。—— 该格式网页中很常见。
 
-2. **<font color='#e96900'>png</font>** 格式：
+2. **<span style="color: #e96900;">png</span>** 格式：
 
    > [!tip]
    >
-   > 概述：扩展名为 **<font color='#e96900'>.png</font>** ，是一种无损的压缩格式，能够更高质量的保存图片。
-   > 主要特点：**<font color='green'>支持的颜色丰富</font>**、占用空间略大、**<font color='green'>支持透明背景</font>**、不支持动态图。
+   > 概述：扩展名为 **<span style="color: #e96900;">.png</span>** ，是一种无损的压缩格式，能够更高质量的保存图片。
+   > 主要特点：**<span style="color: green;">支持的颜色丰富</span>**、占用空间略大、**<span style="color: green;">支持透明背景</span>**、不支持动态图。
    > 使用场景：①想让图片有透明背景；②想更高质量的呈现图片；例如 ：公司logo图、重要配图等。
 
-3. **<font color='#e96900'>bmp</font>** 格式：
+3. **<span style="color: #e96900;">bmp</span>** 格式：
 
    > [!tip]
    >
-   > 概述：扩展名为 **<font color='#e96900'>.bmp</font>** ，不进行压缩的一种格式，在最大程度上保留图片更多的细节。
-   > 主要特点：**<font color='green'>支持的颜色丰富、保留的细节更多</font>**、占用空间极大、不支持透明背景、不支持动态图。
-   > 使用场景：对图片细节 **<font color='blue'>要求极高</font>** 的场景，例如：一些大型游戏中的图片 。（网页中很少使用）
+   > 概述：扩展名为 **<span style="color: #e96900;">.bmp</span>** ，不进行压缩的一种格式，在最大程度上保留图片更多的细节。
+   > 主要特点：**<span style="color: green;">支持的颜色丰富、保留的细节更多</span>**、占用空间极大、不支持透明背景、不支持动态图。
+   > 使用场景：对图片细节 **<span style="color: blue;">要求极高</span>** 的场景，例如：一些大型游戏中的图片 。（网页中很少使用）
 
-4. **<font color='#e96900'>gif</font>** 格式：
+4. **<span style="color: #e96900;">gif</span>** 格式：
 
    > [!tip]
    >
-   > 概述：扩展名为 **<font color='#e96900'>.gif</font>** ，仅支持256种颜色，色彩呈现不是很完整。
-   > 主要特点：支持的颜色较少、**<font color='green'>支持<font color='red'>简单</font>透明背景、支持动态图</font>。**
+   > 概述：扩展名为 **<span style="color: #e96900;">.gif</span>** ，仅支持256种颜色，色彩呈现不是很完整。
+   > 主要特点：支持的颜色较少、**<span style="color: green;">支持<span style="color: red;">简单</span>透明背景、支持动态图</span>。**
    > 使用场景：网页中的动态图片。
 
-5. **<font color='#e96900'>webp</font>** 格式：
+5. **<span style="color: #e96900;">webp</span>** 格式：
 
    > [!tip]
    >
-   > 概述：扩展名为 **<font color='#e96900'>.webp</font>** ，谷歌推出的一种格式，专门用来在网页中呈现图片。
+   > 概述：扩展名为 **<span style="color: #e96900;">.webp</span>** ，谷歌推出的一种格式，专门用来在网页中呈现图片。
    > 主要特点：具备上述几种格式的优点，但兼容性不太好，一旦使用务必要解决兼容性问题。
    > 使用场景：网页中的各种图片。
 
-6. **<font color='#e96900'>base64</font>** 格式
+6. **<span style="color: #e96900;">base64</span>** 格式
 
    > [!tip]
    >
    > 1. 本质：一串特殊的文本，要通过浏览器打开，传统看图应用通常无法打开。
-   > 2. 原理：把图片进行 <font color='#e96900'>**base64**</font> 编码，形成一串文本。
+   > 2. 原理：把图片进行 <span style="color: #e96900;">**base64**</span> 编码，形成一串文本。
    > 3. 如何生成：靠一些工具或网站。
-   > 4. 如何使用：直接作为 <font color='#e96900'>**img**</font> 标签的 <font color='#e96900'>**src**</font> 属性的值即可，并且不受文件位置的影响。
+   > 4. 如何使用：直接作为 <span style="color: #e96900;">**img**</span> 标签的 <span style="color: #e96900;">**src**</span> 属性的值即可，并且不受文件位置的影响。
    > 5. 使用场景：一些较小的图片，或者需要和网页一起加载的图片。
 
 **图片的格式非常多，上面这些，只是一些常见的、我们前端人员常接触到的。**
@@ -490,7 +490,7 @@ tag:
 
 | 标签名 | 标签语义 | 常用属性                                                 | 单 / 双 标签 |
 | ---------- | ------------ | ------------------------------------------------------------ | ------------------------ |
-| a          | 超链接       | **<font color='#e96900'>href</font>** ： 指定要跳转到的具体目标。  <br>**<font color='#e96900'>target</font>** ： 控制跳转时如何打开页面，常用值如下:  <br/>&emsp;&emsp;&emsp;&emsp;**<font color='green'>_self ：在本窗口打开（默认效果）。</font>**   <br/>&emsp;&emsp;&emsp;&emsp;**<font color='green'>_blank：在新窗口打开</font>。 <br/> **<font color='#e96900'>**id**</font>  ： 元素的唯一 标识，可用于设置锚点。   <br/>**<font color='#e96900'>name</font>** ： 元素的名字，写在 <font color='#e96900'>a </font>标签中，也能设置锚点。 | 双                       |
+| a          | 超链接       | **<span style="color: #e96900;">href</span>** ： 指定要跳转到的具体目标。  <br>**<span style="color: #e96900;">target</span>** ： 控制跳转时如何打开页面，常用值如下:  <br/>&emsp;&emsp;&emsp;&emsp;**<span style="color: green;">_self ：在本窗口打开（默认效果）。</span>**   <br/>&emsp;&emsp;&emsp;&emsp;**<span style="color: green;">_blank：在新窗口打开</span>。 <br/> **<span style="color: #e96900;">**id**</span>  ： 元素的唯一 标识，可用于设置锚点。   <br/>**<span style="color: #e96900;">name</span>** ： 元素的名字，写在 <span style="color: #e96900;">a </span>标签中，也能设置锚点。 | 双                       |
 
 ### 1. 跳转到页面
 
@@ -518,7 +518,7 @@ tag:
 >
 > 注意点：
 > 1. 代码中的**多个空格**、**多个回车**，都会被浏览器解析成一个空格！
-> 2. 虽然 **<font color='#e96900'>a</font>** 是行内元素，但 **<font color='#e96900'>a</font>** 元素可以包裹除它自身外的任何元素！
+> 2. 虽然 **<span style="color: #e96900;">a</span>** 是行内元素，但 **<span style="color: #e96900;">a</span>** 元素可以包裹除它自身外的任何元素！
 >
 > 想展示多个回车或空格，怎么办呢？ —— 后面会讲。
 
@@ -538,7 +538,7 @@ tag:
 
 > [!tip]
 >
-> 注意1：若浏览器无法打开文件，则会引导用户下载。
+> 注意1：若浏览器无法打开文件，则会引导用户下载。<br>
 > 注意2：若想强制触发下载，请使用download 属性，属性值即为下载文件的名称。
 
 ### 3. 跳转到锚点
@@ -559,8 +559,8 @@ tag:
   > [!tip]
   >
   > 注意点：
-  > 1. 具有 **<font color='#e96900'>href</font>** 属性的 **a** 标签是 **<font color='#e96900'>超链接</font>**，具有 **<font color='#e96900'>name</font>** 属性的 **<font color='#e96900'>a</font>** 标签是 **锚点** 。
-  > 2. **<font color='#e96900'>name</font>** 和 **<font color='#e96900'>id</font>** 都是区分大小写的，且 **<font color='#e96900'>id</font>** 最好别是数字开头。
+  > 1. 具有 **<span style="color: #e96900;">href</span>** 属性的 **a** 标签是 **<span style="color: #e96900;">超链接</span>**，具有 **<span style="color: #e96900;">name</span>** 属性的 **<span style="color: #e96900;">a</span>** 标签是 **锚点** 。
+  > 2. **<span style="color: #e96900;">name</span>** 和 **<span style="color: #e96900;">id</span>** 都是区分大小写的，且 **<span style="color: #e96900;">id</span>** 最好别是数字开头。
   
 - **第二步：跳转锚点**
 
@@ -587,7 +587,7 @@ tag:
 
 ### 4. 唤起指定应用
 
-通过 **<font color='#e96900'>a</font>** 标签，可以唤起设备应用程序。
+通过 **<span style="color: #e96900;">a</span>** 标签，可以唤起设备应用程序。
 
 ```html
 <!-- 唤起设备拨号 -->
@@ -755,12 +755,12 @@ tag:
 
 > [!tip]
 >
-> 注意： **<font color='#e96900'>li</font>** 标签最好写在 **<font color='#e96900'>ul</font>** 或 **<font color='#e96900'>ol</font>** 中，不要单独使用。
+> 注意： **<span style="color: #e96900;">li</span>** 标签最好写在 **<span style="color: #e96900;">ul</span>** 或 **<span style="color: #e96900;">ol</span>** 中，不要单独使用。
 
 ### 4. 自定义列表（definition list）
 
-1. 概念：所谓自定义列表，就是一个包含 **<font color='red'>术语名称</font>** 以及 **<font color='red'>术语描述</font>** 的列表。
-2. 一个 **<font color='#e96900'>dl</font>** 就是一个自定义列表，一个 **<font color='#e96900'>dt</font>** 就是一个术语名称，一个 **<font color='#e96900'>dd</font>** 就是术语描述（可以有多个）。
+1. 概念：所谓自定义列表，就是一个包含 **<span style="color: red;">术语名称</span>** 以及 **<span style="color: red;">术语描述</span>** 的列表。
+2. 一个 **<span style="color: #e96900;">dl</span>** 就是一个自定义列表，一个 **<span style="color: #e96900;">dt</span>** 就是一个术语名称，一个 **<span style="color: #e96900;">dd</span>** 就是术语描述（可以有多个）。
 
 ```html
 <h2>如何高效学习？</h2>
@@ -796,7 +796,7 @@ tag:
 
 ### 5.注意事项
 
-1. 有序列表与无序列表的子元素最好是 **<font color='#e96900'>li</font>** 
+1. 有序列表与无序列表的子元素最好是 **<span style="color: #e96900;">li</span>** 
 
    :::normal-demo 演示
 
@@ -816,7 +816,7 @@ tag:
 
    :::
 
-2.  **<font color='#e96900'>li</font>** 最好不要单独使用
+2.  **<span style="color: #e96900;">li</span>** 最好不要单独使用
 
 3. 列表是可以嵌套的
 
@@ -844,7 +844,7 @@ tag:
 
    :::
 
-4. 自定义列表 **<font color='#e96900'>dd</font>** （术语描述）可以有多个
+4. 自定义列表 **<span style="color: #e96900;">dd</span>** （术语描述）可以有多个
 
 ## 10. 表格
 ### 1. 基本结构
@@ -855,19 +855,19 @@ tag:
 
 2. 表格涉及到的标签：
 
-   **<font color='#e96900'>table</font>** ：表格
+   **<span style="color: #e96900;">table</span>** ：表格
 
-   **<font color='#e96900'>caption</font>** ：表格标题
+   **<span style="color: #e96900;">caption</span>** ：表格标题
 
-   **<font color='#e96900'>thead</font>** ：表格头部
+   **<span style="color: #e96900;">thead</span>** ：表格头部
 
-   **<font color='#e96900'>tbody</font>** ：表格主体
+   **<span style="color: #e96900;">tbody</span>** ：表格主体
 
-   **<font color='#e96900'>tfoot</font>** ：表格注脚
+   **<span style="color: #e96900;">tfoot</span>** ：表格注脚
 
-   **<font color='#e96900'>tr</font>** ：每一行
+   **<span style="color: #e96900;">tr</span>** ：每一行
 
-   **<font color='#e96900'>th</font>** 、 **<font color='#e96900'>td</font>** ：每一个单元格（备注：表格头部中用 **<font color='#e96900'>th</font>** ，表格主体、表格脚注中用： **<font color='#e96900'>td</font>** ）
+   **<span style="color: #e96900;">th</span>** 、 **<span style="color: #e96900;">td</span>** ：每一个单元格（备注：表格头部中用 **<span style="color: #e96900;">th</span>** ，表格主体、表格脚注中用： **<span style="color: #e96900;">td</span>** ）
 
    ![表格头部](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240704155807388.png)
 
@@ -1003,23 +1003,23 @@ tag:
 
 | 标签名 | 标签语义 | 常用属性                                                 | 单/双 标签 |
 | :--------: | ------------ | ------------------------------------------------------------ | ------------------------------- |
-| **<font color='#e96900'>table</font>** | 表格         | **<font color='#e96900'>width</font>** ：设置表格宽度。<br>**<font color='#e96900'>height</font>** ：设置表格**最小**高度，表格最终高度可能比设置的值大。<br>**<font color='#e96900'>border</font>** ：设置表格边框宽度。<br>**<font color='#e96900'>cellspacing</font>** ： 设置单元格之间的间距。 | 双                              |
-| **<font color='#e96900'>thead</font>** | 表格头部     | **<font color='#e96900'>height</font>** ：设置表格头部高度。<br>**<font color='#e96900'>align</font>** ： 设置单元格的**水平**对齐方式，可选值如下：<br>&emsp;&emsp;1. **<font color='#e96900'>left</font>** ：左对齐<br>&emsp;&emsp;2. **<font color='#e96900'>center</font>** ：中间对齐<br>&emsp;&emsp;3. **<font color='#e96900'>right</font>** ：右对齐<br>**<font color='#e96900'>valign</font>** ：设置单元格的**垂直**对齐方式，可选值如下：<br>&emsp;&emsp;1. **<font color='#e96900'>top</font>** ：顶部对齐<br>&emsp;&emsp;2. **<font color='#e96900'>middle</font>** ：中间对齐<br>&emsp;&emsp;3. **<font color='#e96900'>bottom</font>** ：底部对齐 | 双                              |
-| **<font color='#e96900'>tbody</font>** | 表格主体     | 常用属性与 **<font color='#e96900'>thead</font>** 相同。 | 双                              |
-| **<font color='#e96900'>tr</font>** | 行           | 常用属性与 **<font color='#e96900'>thead</font>** 相同。 | 双                              |
-| **<font color='#e96900'>tfoot</font>** | 表格脚注     | 常用属性与 **<font color='#e96900'>thead</font>** 相同。 | 双                              |
-| **<font color='#e96900'>td</font>** | 普通单元格   | **<font color='#e96900'>width</font>** ：设置单元格的宽度，同列所有单元格全都受影响。<br>**<font color='#e96900'>heigth</font>** ：设置单元格的高度，同行所有单元格全都受影响。<br>**<font color='#e96900'>align</font>** ：设置单元格的水平对齐方式。 <br>**<font color='#e96900'>valign</font>** ：设置单元格的垂直对齐方式。 <br>**<font color='#e96900'>rowspan</font>** ：指定要跨的行数。<br>**<font color='#e96900'>colspan</font>** ：指定要跨的列数。 | 双                              |
-| **<font color='#e96900'>th</font>** | 表头单元格   | 常用属性与 **<font color='#e96900'>td</font>** 相同。      | 双                              |
+| **<span style="color: #e96900;">table</span>** | 表格         | **<span style="color: #e96900;">width</span>** ：设置表格宽度。<br>**<span style="color: #e96900;">height</span>** ：设置表格**最小**高度，表格最终高度可能比设置的值大。<br>**<span style="color: #e96900;">border</span>** ：设置表格边框宽度。<br>**<span style="color: #e96900;">cellspacing</span>** ： 设置单元格之间的间距。 | 双                              |
+| **<span style="color: #e96900;">thead</span>** | 表格头部     | **<span style="color: #e96900;">height</span>** ：设置表格头部高度。<br>**<span style="color: #e96900;">align</span>** ： 设置单元格的**水平**对齐方式，可选值如下：<br>&emsp;&emsp;1. **<span style="color: #e96900;">left</span>** ：左对齐<br>&emsp;&emsp;2. **<span style="color: #e96900;">center</span>** ：中间对齐<br>&emsp;&emsp;3. **<span style="color: #e96900;">right</span>** ：右对齐<br>**<span style="color: #e96900;">valign</span>** ：设置单元格的**垂直**对齐方式，可选值如下：<br>&emsp;&emsp;1. **<span style="color: #e96900;">top</span>** ：顶部对齐<br>&emsp;&emsp;2. **<span style="color: #e96900;">middle</span>** ：中间对齐<br>&emsp;&emsp;3. **<span style="color: #e96900;">bottom</span>** ：底部对齐 | 双                              |
+| **<span style="color: #e96900;">tbody</span>** | 表格主体     | 常用属性与 **<span style="color: #e96900;">thead</span>** 相同。 | 双                              |
+| **<span style="color: #e96900;">tr</span>** | 行           | 常用属性与 **<span style="color: #e96900;">thead</span>** 相同。 | 双                              |
+| **<span style="color: #e96900;">tfoot</span>** | 表格脚注     | 常用属性与 **<span style="color: #e96900;">thead</span>** 相同。 | 双                              |
+| **<span style="color: #e96900;">td</span>** | 普通单元格   | **<span style="color: #e96900;">width</span>** ：设置单元格的宽度，同列所有单元格全都受影响。<br>**<span style="color: #e96900;">heigth</span>** ：设置单元格的高度，同行所有单元格全都受影响。<br>**<span style="color: #e96900;">align</span>** ：设置单元格的水平对齐方式。 <br>**<span style="color: #e96900;">valign</span>** ：设置单元格的垂直对齐方式。 <br>**<span style="color: #e96900;">rowspan</span>** ：指定要跨的行数。<br>**<span style="color: #e96900;">colspan</span>** ：指定要跨的列数。 | 双                              |
+| **<span style="color: #e96900;">th</span>** | 表头单元格   | 常用属性与 **<span style="color: #e96900;">td</span>** 相同。      | 双                              |
 
 注意点：
 
 > [!tip]
 >
-> 1.   **<font color='#e96900'>\<table></font>** 元素的 **<font color='#e96900'>border</font>** 属性可以控制表格边框，但 **<font color='#e96900'>border</font>** 值的大小，并不控制单元格边框的宽度，只能控制表格最外侧边框的宽度，这个问题如何解决？—— 后期靠 <font color='#e96900'>**CSS** </font>控制。
+> 1.   **<span style="color: #e96900;">\<table></span>** 元素的 **<span style="color: #e96900;">border</span>** 属性可以控制表格边框，但 **<span style="color: #e96900;">border</span>** 值的大小，并不控制单元格边框的宽度，只能控制表格最外侧边框的宽度，这个问题如何解决？—— 后期靠 <span style="color: #e96900;">**CSS** </span>控制。
 >
 > 2.   默认情况下，每列的宽度，得看这一列单元格最长的那个文字。
-> 3.   给某个 **<font color='#e96900'>th</font>** 或 **<font color='#e96900'>td</font>** 设置了宽度之后，他们所在的那一列的宽度就确定了。
-> 4.   给某个 **<font color='#e96900'>th</font>** 或 **<font color='#e96900'>td</font>** 设置了高度之后，他们所在的那一行的高度就确定了。
+> 3.   给某个 **<span style="color: #e96900;">th</span>** 或 **<span style="color: #e96900;">td</span>** 设置了宽度之后，他们所在的那一列的宽度就确定了。
+> 4.   给某个 **<span style="color: #e96900;">th</span>** 或 **<span style="color: #e96900;">td</span>** 设置了高度之后，他们所在的那一行的高度就确定了。
 
 示例：
 
@@ -1098,14 +1098,14 @@ tag:
 
 ### 3. 跨行跨列
 
-1. **<font color='#e96900'>rowspan</font>** ：指定要跨的行数。
-2. **<font color='#e96900'>colspan</font>** ：指定要跨的列数。
+1. **<span style="color: #e96900;">rowspan</span>** ：指定要跨的行数。
+2. **<span style="color: #e96900;">colspan</span>** ：指定要跨的列数。
 
 > [!tip]
 >
 > VSCode 快捷键：
 >
-> 光标选中多行： **<font color='#e96900'>Alt + 鼠标左键</font>**
+> 光标选中多行： **<span style="color: #e96900;">Alt + 鼠标左键</span>**
 
 课程表效果：
 
@@ -1209,17 +1209,17 @@ tag:
 
 | 标签名 | 标签含义                               | 单/双 标签 |
 | :--------: | ------------------------------------------ | :----------------------: |
-| **<font color='#e96900'>br</font>** | 换行                                       | 单                       |
-| **<font color='#e96900'>hr</font>** | 分隔                                       | 单                       |
-| **<font color='#e96900'>pre</font>** | 按原文显示（一般用于在页面中嵌入大段代码） | 双                       |
+| **<span style="color: #e96900;">br</span>** | 换行                                       | 单                       |
+| **<span style="color: #e96900;">hr</span>** | 分隔                                       | 单                       |
+| **<span style="color: #e96900;">pre</span>** | 按原文显示（一般用于在页面中嵌入大段代码） | 双                       |
 
 > [!tip]
 >
 > 注意点：
 >
-> 1. 不要用  **<font color='#e96900'>\<br></font>** 来增加文本之间的行间隔，应使用 **<font color='#e96900'>\<p></font>** 元素，或后面即将学到的 **<font color='#e96900'>CSS margin</font>** 属性。
+> 1. 不要用  **<span style="color: #e96900;">\<br></span>** 来增加文本之间的行间隔，应使用 **<span style="color: #e96900;">\<p></span>** 元素，或后面即将学到的 **<span style="color: #e96900;">CSS margin</span>** 属性。
 >
-> 2. **<font color='#e96900'>\<hr></font>** 的语义是分隔，如果不想要语义，只是想画一条水平线，那么应当使用 **<font color='#e96900'>CSS</font>** 完成。
+> 2. **<span style="color: #e96900;">\<hr></span>** 的语义是分隔，如果不想要语义，只是想画一条水平线，那么应当使用 **<span style="color: #e96900;">CSS</span>** 完成。
 
 示例：
 
@@ -1267,9 +1267,9 @@ tag:
 
 | 标签名 | 标签语义 | 常用属性                                                 | 单 / 双标签 |
 | :----: | ---------------- | ------------------------------------------------------------ | ----------------------- |
-| **<font color='#e96900'>form</font>** | 表单             | **<font color='#e96900'>action</font>** ：用于指定表单的提交地址（需要与后端人员沟通后确定）。<br>**<font color='#e96900'>target</font>** ：用于控制表单提交后，如何打开页面，常用值如下：<br>&emsp;&emsp;&emsp;&emsp;**<font color='#e96900'>_self</font>** ：在本窗口打开。<br>&emsp;&emsp;&emsp;&emsp;**<font color='#e96900'>_blank</font>** ：在新窗口打开。<br>**<font color='#e96900'>method</font>** ：用于控制表单的提交方式，暂时只需了解，在后面 **<font color='#e96900'>Ajax</font>** 的课程中，会详细讲解。 | 双                      |
-| **<font color='#e96900'>input</font>** | 输入框           | **<font color='#e96900'>type</font>** ：设置输入框的类型，目前用到的值是 **text** ，表示普通文本。<br>**<font color='#e96900'>name</font>** ：用于指定提交数据的名字，（需要与后端人员沟通后确定）。 | 单                      |
-| **<font color='#e96900'>button</font>** | 按钮             | 本小节暂不涉及                                               | 双                      |
+| **<span style="color: #e96900;">form</span>** | 表单             | **<span style="color: #e96900;">action</span>** ：用于指定表单的提交地址（需要与后端人员沟通后确定）。<br>**<span style="color: #e96900;">target</span>** ：用于控制表单提交后，如何打开页面，常用值如下：<br>&emsp;&emsp;&emsp;&emsp;**<span style="color: #e96900;">_self</span>** ：在本窗口打开。<br>&emsp;&emsp;&emsp;&emsp;**<span style="color: #e96900;">_blank</span>** ：在新窗口打开。<br>**<span style="color: #e96900;">method</span>** ：用于控制表单的提交方式，暂时只需了解，在后面 **<span style="color: #e96900;">Ajax</span>** 的课程中，会详细讲解。 | 双                      |
+| **<span style="color: #e96900;">input</span>** | 输入框           | **<span style="color: #e96900;">type</span>** ：设置输入框的类型，目前用到的值是 **text** ，表示普通文本。<br>**<span style="color: #e96900;">name</span>** ：用于指定提交数据的名字，（需要与后端人员沟通后确定）。 | 单                      |
+| **<span style="color: #e96900;">button</span>** | 按钮             | 本小节暂不涉及                                               | 双                      |
 
 > [!tip]
 >
@@ -1349,11 +1349,11 @@ tag:
 >
 > 常用属性如下：
 >
-> **<font color='#e96900'>name</font>** 属性：数据的名称。
+> **<span style="color: #e96900;">name</span>** 属性：数据的名称。
 >
-> **<font color='#e96900'>value</font>** 属性：输入框的默认输入值（一般不用，无意义）。
+> **<span style="color: #e96900;">value</span>** 属性：输入框的默认输入值（一般不用，无意义）。
 >
-> **<font color='#e96900'>maxlength</font>** 属性：输入框最大可输入长度。
+> **<span style="color: #e96900;">maxlength</span>** 属性：输入框最大可输入长度。
 
 #### ③ 单选框
 
@@ -1379,11 +1379,11 @@ tag:
 >
 > 常用属性如下：
 >
-> **<font color='#e96900'>name</font>** 属性：数据的名称，注意：想要单选效果，多个 **<font color='#e96900'>radio</font>** 的 **<font color='#e96900'>name</font>** 属性值要保持一致。
+> **<span style="color: #e96900;">name</span>** 属性：数据的名称，注意：想要单选效果，多个 **<span style="color: #e96900;">radio</span>** 的 **<span style="color: #e96900;">name</span>** 属性值要保持一致。
 >
-> **<font color='#e96900'>value</font>** 属性：提交的数据值。
+> **<span style="color: #e96900;">value</span>** 属性：提交的数据值。
 >
-> **<font color='#e96900'>checked</font>** 属性：让该单选按钮默认选中。
+> **<span style="color: #e96900;">checked</span>** 属性：让该单选按钮默认选中。
 
 #### ④ 复选框
 
@@ -1411,11 +1411,11 @@ tag:
 >
 > 常用属性如下：
 >
-> **<font color='#e96900'>name</font>** 属性：数据的名称。
+> **<span style="color: #e96900;">name</span>** 属性：数据的名称。
 >
-> **<font color='#e96900'>value</font>** 属性：提交的数据值。
+> **<span style="color: #e96900;">value</span>** 属性：提交的数据值。
 >
-> **<font color='#e96900'>checked</font>** 属性：让该复选框默认选中。
+> **<span style="color: #e96900;">checked</span>** 属性：让该复选框默认选中。
 
 #### ⑤ 隐藏域
 
@@ -1439,9 +1439,9 @@ tag:
 >
 > 用户不可见的一个输入区域，作用是： 提交表单的时候，携带一些固定的数据。
 >
-> **<font color='#e96900'>name</font>** 属性：指定数据的名称。
+> **<span style="color: #e96900;">name</span>** 属性：指定数据的名称。
 >
-> **<font color='#e96900'>value</font>** 属性：指定的是真正提交的数据。
+> **<span style="color: #e96900;">value</span>** 属性：指定的是真正提交的数据。
 
 #### ⑥ 提交按钮
 
@@ -1467,9 +1467,9 @@ tag:
 >
 > 注意：
 >
-> 1. **<font color='#e96900'>button</font>** 标签 **<font color='#e96900'>type</font>** 属性的默认值是 **<font color='#e96900'>submit</font>** 。
-> 2. **<font color='#e96900'>button</font>** 不要指定 **<font color='#e96900'>name</font>** 属性
-> 3. **<font color='#e96900'>input</font>** 标签编写的按钮，使用 **<font color='#e96900'>value</font>** 属性指定按钮文字。
+> 1. **<span style="color: #e96900;">button</span>** 标签 **<span style="color: #e96900;">type</span>** 属性的默认值是 **<span style="color: #e96900;">submit</span>** 。
+> 2. **<span style="color: #e96900;">button</span>** 不要指定 **<span style="color: #e96900;">name</span>** 属性
+> 3. **<span style="color: #e96900;">input</span>** 标签编写的按钮，使用 **<span style="color: #e96900;">value</span>** 属性指定按钮文字。
 
 #### ⑦ 重置按钮
 
@@ -1495,8 +1495,8 @@ tag:
 >
 > 注意点：
 >
-> 1. **<font color='#e96900'>button</font>** 不要指定 **<font color='#e96900'>name</font>** 属性
-> 2. **<font color='#e96900'>input</font>** 标签编写的按钮，使用 **<font color='#e96900'>value</font>** 属性指定按钮文字。
+> 1. **<span style="color: #e96900;">button</span>** 不要指定 **<span style="color: #e96900;">name</span>** 属性
+> 2. **<span style="color: #e96900;">input</span>** 标签编写的按钮，使用 **<span style="color: #e96900;">value</span>** 属性指定按钮文字。
 
 #### ⑧ 普通按钮
 
@@ -1520,7 +1520,7 @@ tag:
 
 > [!tip]
 >
-> 注意点：普通按钮的 **<font color='#e96900'>type</font>** 值为 **<font color='#e96900'>button</font>** ，若不写 **<font color='#e96900'>type</font>** 值是 **submit** 会引起表单的提交。
+> 注意点：普通按钮的 **<span style="color: #e96900;">type</span>** 值为 **<span style="color: #e96900;">button</span>** ，若不写 **<span style="color: #e96900;">type</span>** 值是 **submit** 会引起表单的提交。
 
 #### ⑨文本域
 
@@ -1544,9 +1544,9 @@ tag:
 >
 > 常用属性如下：
 >
-> 1. **<font color='#e96900'>rows</font>** 属性：指定默认显示的行数，会影响文本域的高度。
-> 2. **<font color='#e96900'>cols</font>** 属性：指定默认显示的列数，会影响文本域的宽度。
-> 3. 不能编写 **<font color='#e96900'>type</font>** 属性，其他属性，与普通文本输入框一致。
+> 1. **<span style="color: #e96900;">rows</span>** 属性：指定默认显示的行数，会影响文本域的高度。
+> 2. **<span style="color: #e96900;">cols</span>** 属性：指定默认显示的列数，会影响文本域的宽度。
+> 3. 不能编写 **<span style="color: #e96900;">type</span>** 属性，其他属性，与普通文本输入框一致。
 
 #### ⑩ 下拉框
 
@@ -1580,27 +1580,27 @@ tag:
 >
 > 常用属性及注意事项：
 >
-> 1. **<font color='#e96900'>name</font>** 属性：指定数据的名称。
-> 2. **option** 标签设置 **<font color='#e96900'>value</font>** 属性， 如果没有 **<font color='#e96900'>value</font>** 属性，提交的数据是 **<font color='#e96900'>option</font>** 中间的文字；如果设置了 **<font color='#e96900'>value</font>** 属性，提交的数据就是 **<font color='#e96900'>value</font>** 的值（建议设置 **<font color='#e96900'>value</font>** 属性）
+> 1. **<span style="color: #e96900;">name</span>** 属性：指定数据的名称。
+> 2. **option** 标签设置 **<span style="color: #e96900;">value</span>** 属性， 如果没有 **<span style="color: #e96900;">value</span>** 属性，提交的数据是 **<span style="color: #e96900;">option</span>** 中间的文字；如果设置了 **<span style="color: #e96900;">value</span>** 属性，提交的数据就是 **<span style="color: #e96900;">value</span>** 的值（建议设置 **<span style="color: #e96900;">value</span>** 属性）
 >
-> 3. **<font color='#e96900'>option</font>** 标签设置了 **<font color='#e96900'>selected</font>** 属性，表示默认选中。
+> 3. **<span style="color: #e96900;">option</span>** 标签设置了 **<span style="color: #e96900;">selected</span>** 属性，表示默认选中。
 
 ### 3. 禁用表单控件
 
-给表单控件的标签设置 **<font color='#e96900'>disabled</font>** 既可禁用表单控件。
+给表单控件的标签设置 **<span style="color: #e96900;">disabled</span>** 既可禁用表单控件。
 
 > [!tip]
 >
-> **<font color='#e96900'>input</font>** 、 **<font color='#e96900'>textarea</font>** 、 **<font color='#e96900'>button</font>** 、 **<font color='#e96900'>select</font>** 、 **<font color='#e96900'>option</font>** 都可以设置 **<font color='#e96900'>disabled</font>** 属性
+> **<span style="color: #e96900;">input</span>** 、 **<span style="color: #e96900;">textarea</span>** 、 **<span style="color: #e96900;">button</span>** 、 **<span style="color: #e96900;">select</span>** 、 **<span style="color: #e96900;">option</span>** 都可以设置 **<span style="color: #e96900;">disabled</span>** 属性
 
 ### 4.label 标签
 
-**<font color='#e96900'>label</font>** 标签可与表单控件相关联，关联之后点击文字，与之对应的表单控件就会获取焦点。
+**<span style="color: #e96900;">label</span>** 标签可与表单控件相关联，关联之后点击文字，与之对应的表单控件就会获取焦点。
 
-两种与 **<font color='#e96900'>label</font>** 关联方式如下：
+两种与 **<span style="color: #e96900;">label</span>** 关联方式如下：
 
-1. 让 **<font color='#e96900'>label</font>** 标签的 **<font color='#e96900'><font color='#e96900'>for</font></font>** 属性的值等于表单控件的 **<font color='#e96900'>id</font>** 。
-2. 把表单控件套在 **<font color='#e96900'>label</font>** 标签的里面。
+1. 让 **<span style="color: #e96900;">label</span>** 标签的 **<span style="color: #e96900;"><span style="color: #e96900;">for</span></span>** 属性的值等于表单控件的 **<span style="color: #e96900;">id</span>** 。
+2. 把表单控件套在 **<span style="color: #e96900;">label</span>** 标签的里面。
 
 ### 5. fieldset 与 legend 的使用（了解）
 
@@ -1637,14 +1637,14 @@ tag:
 
 | 标签名                                                   | 标签语义       | 常用属性                                                 |
 | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
-| **<font color='#e96900'>form</font>**                    | 表单               | **<font color='#e96900'>action</font>** 属性： 表单要提交的地址。<br>**<font color='#e96900'>target</font>** 属性： 要跳转的新地址打开位置; 值: **<font color='#e96900'>_self</font>** 、 **<font color='#e96900'>_blank</font>**<br> **<font color='#e96900'>method</font>** 属性： 请求方式，值： **<font color='#e96900'>get</font>** 、 **<font color='#e96900'>post</font>** |
-| **<font color='#e96900'>input</font>**                  | 多种形式的表单控件 | **<font color='#e96900'>type</font>** 属性： 指定表单控件的类型。值： **<font color='#e96900'>text</font>** 、 **<font color='#e96900'>password</font>** 、 **<font color='#e96900'>radio</font>** 、 **<font color='#e96900'>checkbox</font>** 、 **<font color='#e96900'>hidden</font>** 、 **<font color='#e96900'>submit</font>** 、 **<font color='#e96900'>res</font>**、**<font color='#e96900'>button</font>** 等。<br>**<font color='#e96900'>name</font>** 属性： 指定数据名称<br>**<font color='#e96900'>value</font>** 属性：<br>对于输入框：指定默认输入的值；<br>对于单选和复选框：实际提交的数据；<br>对于按钮：显示按钮文字。<br>**<font color='#e96900'>disabled</font>** 属性： 设置表单控件不可用。<br>**<font color='#e96900'>maxlength</font>** 属性： 用于输入框，设置最大可输入长度。<br>**<font color='#e96900'>checked</font>** 属性： 用于单选按钮和复选框，默认选中 |
-| **<font color='#e96900'>textarea</font>**            | 文本域             | **<font color='#e96900'>name</font>** 属性： 指定数据名称<br>**<font color='#e96900'>rows</font>** 属性： 指定默认显示的行数，影响文本域的高度。<br> **<font color='#e96900'>cols</font>** 属性： 指定默认显示的列数，影响文本域的宽度。 <br>**<font color='#e96900'>disabled</font>** 属性： 设置表单控件不可用。 |
-| **<font color='#e96900'>select</font>**                | 下拉框             | **<font color='#e96900'>name</font>** 属性： 指定数据名称<br>**<font color='#e96900'>disabled</font>** 属性： 设置整个下拉框不可用。 |
-| **<font color='#e96900'>option</font>**                | 下拉框的选项       | **<font color='#e96900'>disabled</font>** 属性： 设置拉下选项不可用。<br>**<font color='#e96900'>value</font>** 属性： 该选项事件提交的数据<br>（不指定value，会把标签中的内容作为提交数据）<br/>**<font color='#e96900'>selected</font>** 属性： 默认选中。 |
-| **<font color='#e96900'>button</font>**                | 按钮               | **<font color='#e96900'>disabled</font>** 属性： 设置按钮不可用。<br/>**<font color='#e96900'>type</font>** 属性： 设置按钮的类型，值： **<font color='#e96900'>submit</font>** （默认）、 **<font color='#e96900'>reset</font>** 、 **<font color='#e96900'>button</font>** |
-| **<font color='#e96900'>label</font>**                  | 与表单控件做关联   | **<font color='#e96900'>for</font>** 属性： 值与要关联的表单控件的ID值相同。 |
-| **<font color='#e96900'>fieldset</font>**            | 表单边框           |                                                              |
+| **<span style="color: #e96900;">form</span>**                    | 表单               | **<span style="color: #e96900;">action</span>** 属性： 表单要提交的地址。<br>**<span style="color: #e96900;">target</span>** 属性： 要跳转的新地址打开位置; 值: **<span style="color: #e96900;">_self</span>** 、 **<span style="color: #e96900;">_blank</span>**<br> **<span style="color: #e96900;">method</span>** 属性： 请求方式，值： **<span style="color: #e96900;">get</span>** 、 **<span style="color: #e96900;">post</span>** |
+| **<span style="color: #e96900;">input</span>**                  | 多种形式的表单控件 | **<span style="color: #e96900;">type</span>** 属性： 指定表单控件的类型。值： **<span style="color: #e96900;">text</span>** 、 **<span style="color: #e96900;">password</span>** 、 **<span style="color: #e96900;">radio</span>** 、 **<span style="color: #e96900;">checkbox</span>** 、 **<span style="color: #e96900;">hidden</span>** 、 **<span style="color: #e96900;">submit</span>** 、 **<span style="color: #e96900;">res</span>**、**<span style="color: #e96900;">button</span>** 等。<br>**<span style="color: #e96900;">name</span>** 属性： 指定数据名称<br>**<span style="color: #e96900;">value</span>** 属性：<br>对于输入框：指定默认输入的值；<br>对于单选和复选框：实际提交的数据；<br>对于按钮：显示按钮文字。<br>**<span style="color: #e96900;">disabled</span>** 属性： 设置表单控件不可用。<br>**<span style="color: #e96900;">maxlength</span>** 属性： 用于输入框，设置最大可输入长度。<br>**<span style="color: #e96900;">checked</span>** 属性： 用于单选按钮和复选框，默认选中 |
+| **<span style="color: #e96900;">textarea</span>**            | 文本域             | **<span style="color: #e96900;">name</span>** 属性： 指定数据名称<br>**<span style="color: #e96900;">rows</span>** 属性： 指定默认显示的行数，影响文本域的高度。<br> **<span style="color: #e96900;">cols</span>** 属性： 指定默认显示的列数，影响文本域的宽度。 <br>**<span style="color: #e96900;">disabled</span>** 属性： 设置表单控件不可用。 |
+| **<span style="color: #e96900;">select</span>**                | 下拉框             | **<span style="color: #e96900;">name</span>** 属性： 指定数据名称<br>**<span style="color: #e96900;">disabled</span>** 属性： 设置整个下拉框不可用。 |
+| **<span style="color: #e96900;">option</span>**                | 下拉框的选项       | **<span style="color: #e96900;">disabled</span>** 属性： 设置拉下选项不可用。<br>**<span style="color: #e96900;">value</span>** 属性： 该选项事件提交的数据<br>（不指定value，会把标签中的内容作为提交数据）<br/>**<span style="color: #e96900;">selected</span>** 属性： 默认选中。 |
+| **<span style="color: #e96900;">button</span>**                | 按钮               | **<span style="color: #e96900;">disabled</span>** 属性： 设置按钮不可用。<br/>**<span style="color: #e96900;">type</span>** 属性： 设置按钮的类型，值： **<span style="color: #e96900;">submit</span>** （默认）、 **<span style="color: #e96900;">reset</span>** 、 **<span style="color: #e96900;">button</span>** |
+| **<span style="color: #e96900;">label</span>**                  | 与表单控件做关联   | **<span style="color: #e96900;">for</span>** 属性： 值与要关联的表单控件的ID值相同。 |
+| **<span style="color: #e96900;">fieldset</span>**            | 表单边框           |                                                              |
 
 :::normal-demo 演示
 
@@ -1715,14 +1715,14 @@ tag:
 
 | 标签名 | 功能和语义               | 属性                                                     | 单 / 双标签 |
 | ---------- | ---------------------------- | ------------------------------------------------------------ | --------------------------- |
-| <font color="#e96900">**iframe**</font> | 框架（在网页中嵌入其他文件） | <font color='#e96900'>**name** </font>：框架名字，可以与 target 属性配合。<br><font color='#e96900'>**width** </font>： 框架的宽。<br><font color='#e96900'>**height** </font>： 框架的高度。<br/><font color='#e96900'>**frameborder** </font>：是否显示边框，值：0或者1。 | 双                          |
+| <span color="#e96900">**iframe**</span> | 框架（在网页中嵌入其他文件） | <span style="color: #e96900;">**name** </span>：框架名字，可以与 target 属性配合。<br><span style="color: #e96900;">**width** </span>： 框架的宽。<br><span style="color: #e96900;">**height** </span>： 框架的高度。<br/><span style="color: #e96900;">**frameborder** </span>：是否显示边框，值：0或者1。 | 双                          |
 
 > [!tip]
 >
-> <font color='#e96900'>iframe </font>标签的实际应用：
+> <span style="color: #e96900;">iframe </span>标签的实际应用：
 >
 > 1. 在网页中嵌入广告。
-> 2. 与超链接或表单的 <font color='#e96900'>target </font>配合，展示不同的内容。
+> 2. 与超链接或表单的 <span style="color: #e96900;">target </span>配合，展示不同的内容。
 
 示例：
 
@@ -1754,33 +1754,33 @@ tag:
 
 ## 14.HTML实体
 
-在 <font color='#e96900'>HTML </font>中我们可以用一种 **<font color='blue'>特殊的形式</font>** 的内容，来表示某个**符号**，这种特殊形式的内容，就是 <font color='#e96900'>HTML </font>实体。
+在 <span style="color: #e96900;">HTML </span>中我们可以用一种 **<span style="color: blue;">特殊的形式</span>** 的内容，来表示某个**符号**，这种特殊形式的内容，就是 <span style="color: #e96900;">HTML </span>实体。
 
-比如小于号 <font color='#e96900'>< </font>用于定义 HTML 标签的开始。如果我们希望浏览器正确地显示这些字符，我们必须在 <font color='#e96900'>HTML </font>源码中插入字符实体。
+比如小于号 <span style="color: #e96900;">< </span>用于定义 HTML 标签的开始。如果我们希望浏览器正确地显示这些字符，我们必须在 <span style="color: #e96900;">HTML </span>源码中插入字符实体。
 
 > [!tip]
 >
-> **字符实体**由三部分组成：一个 <font color='#e96900'>& </font>和 一个<font color='#e96900'>实体名称</font>（或者一个 # 和 一个<font color='#e96900'>实体编号</font>），最后加上一个分号 <font color='#e96900'>; </font>。
+> **字符实体**由三部分组成：一个 <span style="color: #e96900;">& </span>和 一个<span style="color: #e96900;">实体名称</span>（或者一个 # 和 一个<span style="color: #e96900;">实体编号</span>），最后加上一个分号 <span style="color: #e96900;">; </span>。
 
 常见字符实体总结：
 
 |                                | **描述**                                       | **实体名称** | **实体编号** |
 | ------------------------------ | ---------------------------------------------- | ------------ | ------------ |
-|                                | **<font color='red'>空格</font>**      | **<font color='#e96900'>\&nbsp;</font>** | <font color='red'>**\&#160;**</font> |
-| **<font color='red'><</font>** | **<font color='red'>小于号</font>**            | **<font color='#e96900'>\&lt;</font>** | <font color='red'>**\&#60;**</font> |
-| **<font color='red'>></font>** | **<font color='red'>大于号</font>**            | **<font color='#e96900'>\&gt;</font>** | <font color='red'>**\&#62;**</font> |
-| **<font color='red'>&</font>** | **<font color='red'>和号</font>**              | **<font color='#e96900'>\&amp;</font>** | <font color='red'>**\&#38;**</font> |
-| **"**                          | 引号                                           | <font color='#e96900'>\&quot;</font> | \&#34;    |
-| **´**                          | 反引号                                         | <font color='#e96900'>\&acute;</font> | \&#180;    |
-| **￠**                         | 分（cent）                                     | <font color='#e96900'>\&cent;</font> | \&#162;     |
-| **£**                          | 镑（pound）                                    | <font color='#e96900'>\&pound; </font> | \&#163;     |
-| **<font color='red'>¥</font>** | **<font color='red'>元（yen）</font>**         | <font color='#e96900'>**\&yen;** </font> | <font color='red'>**\&#165;**</font> |
-| **€**                          | 欧元（euro）                                   | <font color='#e96900'>\&euro; </font> | \&#8364;    |
-| **<font color='red'>©</font>** | **<font color='red'>版权（copyright）</font>** | <font color='#e96900'>**\&copy;** </font> | <font color='red'>**\&#169;**</font> |
-| **®**                          | 注册商标                                       | <font color='#e96900'>\&reg; </font> | \&#174;     |
-| **™**                          | 商标                                           | <font color='#e96900'>\&trade; </font> | \&#8482;    |
-| **<font color='red'>×</font>** | <font color='red'>**乘号**</font>              | <font color='#e96900'>**\&times;**</font> | <font color='red'>**\&#215;**</font> |
-| **<font color='red'>÷</font>** | **<font color='red'>除号</font>**              | <font color='#e96900'>**\&divide;**</font> | <font color='red'>**\&#247;**</font> |
+|                                | **<span style="color: red;">空格</span>**      | **<span style="color: #e96900;">\&nbsp;</span>** | <span style="color: red;">**\&#160;**</span> |
+| **<span style="color: red;"><</span>** | **<span style="color: red;">小于号</span>**            | **<span style="color: #e96900;">\&lt;</span>** | <span style="color: red;">**\&#60;**</span> |
+| **<span style="color: red;">></span>** | **<span style="color: red;">大于号</span>**            | **<span style="color: #e96900;">\&gt;</span>** | <span style="color: red;">**\&#62;**</span> |
+| **<span style="color: red;">&</span>** | **<span style="color: red;">和号</span>**              | **<span style="color: #e96900;">\&amp;</span>** | <span style="color: red;">**\&#38;**</span> |
+| **"**                          | 引号                                           | <span style="color: #e96900;">\&quot;</span> | \&#34;    |
+| **´**                          | 反引号                                         | <span style="color: #e96900;">\&acute;</span> | \&#180;    |
+| **￠**                         | 分（cent）                                     | <span style="color: #e96900;">\&cent;</span> | \&#162;     |
+| **£**                          | 镑（pound）                                    | <span style="color: #e96900;">\&pound; </span> | \&#163;     |
+| **<span style="color: red;">¥</span>** | **<span style="color: red;">元（yen）</span>**         | <span style="color: #e96900;">**\&yen;** </span> | <span style="color: red;">**\&#165;**</span> |
+| **€**                          | 欧元（euro）                                   | <span style="color: #e96900;">\&euro; </span> | \&#8364;    |
+| **<span style="color: red;">©</span>** | **<span style="color: red;">版权（copyright）</span>** | <span style="color: #e96900;">**\&copy;** </span> | <span style="color: red;">**\&#169;**</span> |
+| **®**                          | 注册商标                                       | <span style="color: #e96900;">\&reg; </span> | \&#174;     |
+| **™**                          | 商标                                           | <span style="color: #e96900;">\&trade; </span> | \&#8482;    |
+| **<span style="color: red;">×</span>** | <span style="color: red;">**乘号**</span>              | <span style="color: #e96900;">**\&times;**</span> | <span style="color: red;">**\&#215;**</span> |
+| **<span style="color: red;">÷</span>** | **<span style="color: red;">除号</span>**              | <span style="color: #e96900;">**\&divide;**</span> | <span style="color: red;">**\&#247;**</span> |
 
 完整实体列表，请参考：[HTML Standard (whatwg.org)](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references)
 
@@ -1828,12 +1828,12 @@ tag:
 
 | 属性名                             | 含义                                                         |
 | ---------------------------------- | ------------------------------------------------------------ |
-| <font color='#e96900'>id</font>    | 给标签指定唯一标识，注意： <font color='#e96900'>id</font> 是不能重复的。<br>作用：可以让 label 标签与表单控件相关联；也可以与 CSS 、JavaScript 配合使用。 |
-| <font color='#e96900'>class</font> | 给标签指定类名，随后通过 <font color='#e96900'>CSS</font> 就可以给标签设置样式。 |
-| <font color='#e96900'>style</font> | 给标签设置 <font color='#e96900'>CSS</font> 样式。           |
-| <font color='#e96900'>dir</font>   | 内容的方向，值: <font color='#e96900'>ltr</font> 、 <font color='#e96900'>rtl</font> |
-| <font color='#e96900'>title</font> | 给标签设置一个文字提示，一般超链接和图片用得比较多。         |
-| <font color='#e96900'>lang</font>  | 给标签指定语言，具体规范和可选值请参考【10. HTML 设置语言】。 |
+| <span style="color: #e96900;">id</span>    | 给标签指定唯一标识，注意： <span style="color: #e96900;">id</span> 是不能重复的。<br>作用：可以让 label 标签与表单控件相关联；也可以与 CSS 、JavaScript 配合使用。 |
+| <span style="color: #e96900;">class</span> | 给标签指定类名，随后通过 <span style="color: #e96900;">CSS</span> 就可以给标签设置样式。 |
+| <span style="color: #e96900;">style</span> | 给标签设置 <span style="color: #e96900;">CSS</span> 样式。           |
+| <span style="color: #e96900;">dir</span>   | 内容的方向，值: <span style="color: #e96900;">ltr</span> 、 <span style="color: #e96900;">rtl</span> |
+| <span style="color: #e96900;">title</span> | 给标签设置一个文字提示，一般超链接和图片用得比较多。         |
+| <span style="color: #e96900;">lang</span>  | 给标签指定语言，具体规范和可选值请参考【10. HTML 设置语言】。 |
 
 完整的全局属性，请参考：[全局属性 - HTML（超文本标记语言） | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)
 
@@ -1882,7 +1882,7 @@ tag:
 
    
 
-2. 针对 <font color='#e96900'>IE</font> 浏览器的兼容性配置。
+2. 针对 <span style="color: #e96900;">IE</span> 浏览器的兼容性配置。
 
    ```html
    <meta  http-equiv="X-UA-Compatible" content="IE=edge">
@@ -1932,14 +1932,14 @@ tag:
 
    | 值                                     | 描述                                                         |
    | -------------------------------------- | ------------------------------------------------------------ |
-   | <font color='#e96900'>index</font>     | 允许搜索爬虫索引此页面。                                     |
-   | <font color='#e96900'>noindex</font>   | 要求搜索爬虫不索引此页面。                                   |
-   | <font color='#e96900'>follow</font>    | 允许搜索爬虫跟随此页面上的链接。                             |
-   | <font color='#e96900'>nofollow</font>  | 要求搜索爬虫不跟随此页面上的链接。                           |
-   | <font color='#e96900'>all</font>       | 与 <font color='#e96900'>index</font>, <font color='#e96900'>follow</font> 等价 |
-   | <font color='#e96900'>none</font>      | 与 <font color='#e96900'>noindex</font>, <font color='#e96900'>nofollow </font>等价 |
-   | <font color='#e96900'>noarchive</font> | 要求搜索引擎不缓存页面内容。                                 |
-   | <font color='#e96900'>nocache</font>   | <font color='#e96900'>noarchive </font>的替代名称。          |
+   | <span style="color: #e96900;">index</span>     | 允许搜索爬虫索引此页面。                                     |
+   | <span style="color: #e96900;">noindex</span>   | 要求搜索爬虫不索引此页面。                                   |
+   | <span style="color: #e96900;">follow</span>    | 允许搜索爬虫跟随此页面上的链接。                             |
+   | <span style="color: #e96900;">nofollow</span>  | 要求搜索爬虫不跟随此页面上的链接。                           |
+   | <span style="color: #e96900;">all</span>       | 与 <span style="color: #e96900;">index</span>, <span style="color: #e96900;">follow</span> 等价 |
+   | <span style="color: #e96900;">none</span>      | 与 <span style="color: #e96900;">noindex</span>, <span style="color: #e96900;">nofollow </span>等价 |
+   | <span style="color: #e96900;">noarchive</span> | 要求搜索引擎不缓存页面内容。                                 |
+   | <span style="color: #e96900;">nocache</span>   | <span style="color: #e96900;">noarchive </span>的替代名称。          |
 
 7. 配置网页作者：
 
