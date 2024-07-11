@@ -12,8 +12,8 @@ export const zhSidebarConfig = sidebar({
 
   // "/code/front_end": front_end,
   "/code/front_end": "structure",
-  "/code/front_end/html": "structure",
-  "/code/front_end/css": "structure",
+  "/code/front_end/html4": "structure",
+  "/code/front_end/css2": "structure",
 
 
 

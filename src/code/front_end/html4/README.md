@@ -1,6 +1,6 @@
 ---
 date: 2024-06-26
-title: HTML4
+title: HTML 4
 icon: code
 dir:
   order: 1
