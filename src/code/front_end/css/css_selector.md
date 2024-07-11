@@ -4,8 +4,6 @@ title: 二、CSS选择器
 order: 2
 date: 2024-07-09
 category:
-  - language
-  - css
   - 前端
 tag:
   - language

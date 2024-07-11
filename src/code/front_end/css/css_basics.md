@@ -4,8 +4,6 @@ title: 一、CSS基础
 order: 1
 date: 2024-07-08
 category:
-  - language
-  - css
   - 前端
 tag:
   - language
