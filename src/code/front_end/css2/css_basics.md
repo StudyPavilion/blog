@@ -26,7 +26,7 @@ tag:
 - 语法：
 
   ```html
-  <h1 style="color:red; span-size:60px;">欢迎来到尚硅谷学习</h1>
+  <h1 style="color:red; span-size:60px;">欢迎来到尚硅谷学习</h1> 
   ```
 
   

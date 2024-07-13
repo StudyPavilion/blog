@@ -1,11 +1,11 @@
 ---
 date: 2024-07-01
-title: CSS 2
+title: CSS2 知识总览
 icon: code
 dir:
   order: 2
   text: CSS 2
-  link: true
+  link: false
 star: true
 sticky: 20
 ---

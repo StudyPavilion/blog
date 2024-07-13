@@ -5,19 +5,19 @@ export const front_end = arraySidebar([
   {
     text: "HTML",
     icon: "html",
-    link: "html/",
+    link: "html4/",
   },
 
   {
     text: "HTML",
     icon: "html",
-    link: "html/",
+    link: "html4/",
   },
 
   {
     text: "CSS",
     icon: "css",
-    link: "css/",
+    link: "css2/",
   },
 
 ]);

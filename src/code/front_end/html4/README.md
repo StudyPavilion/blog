@@ -1,11 +1,11 @@
 ---
 date: 2024-06-26
-title: HTML 4
+title: HTML4 知识总览
 icon: code
 dir:
   order: 1
   text: HTML 4
-  link: true
+  link: false
 star: true
 sticky: 20
 ---

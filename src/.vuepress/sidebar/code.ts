@@ -18,8 +18,8 @@ export const code = arraySidebar([
     prefix: "front_end",
     link: "front_end/",
     children: [
-      "html/",
-      "css/",
+      "html4/",
+      "css2/",
     ],
   },
 
