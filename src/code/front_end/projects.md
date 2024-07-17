@@ -14,4 +14,4 @@ tag:
 
 ## 尚硅谷
 
-<a href="/blog/projects/front_end/shang_pin_hui/index.html" target="_blank">【尚品汇】</a>
+<a href="/projects/front_end/shang_pin_hui/index.html" target="_blank">【尚品汇】</a>
