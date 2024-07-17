@@ -5,7 +5,8 @@ import { front_end } from "./front_end.js";
 
 export const zhSidebarConfig = sidebar({
 
-  "/code/": code,
+  // "/code/": code,
+  "/code/": "structure",
 
   "/code/stm32/": stm32,
   "/code/stm32/hal": "structure",
