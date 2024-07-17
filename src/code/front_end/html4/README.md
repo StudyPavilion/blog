@@ -1,6 +1,6 @@
 ---
 date: 2024-06-26
-title: HTML4 知识总览
+title: 知识总览
 icon: code
 dir:
   order: 1

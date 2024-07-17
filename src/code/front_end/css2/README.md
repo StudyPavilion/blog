@@ -1,6 +1,6 @@
 ---
 date: 2024-07-01
-title: CSS2 知识总览
+title: 知识总览
 icon: code
 dir:
   order: 2
