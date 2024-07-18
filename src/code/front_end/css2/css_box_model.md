@@ -229,9 +229,9 @@ tag:
     <span class="one">人之初</span>
     <span class="two">性本善</span>
     <hr>
-    <img src="../images/悟空.jpg" alt="悟空">
-    <img src="../images/悟空.jpg" alt="悟空">
-    <img src="../images/悟空.jpg" alt="悟空">
+    <img src="../images/front_end/悟空.jpg" alt="悟空">
+    <img src="../images/front_end/悟空.jpg" alt="悟空">
+    <img src="../images/front_end/悟空.jpg" alt="悟空">
 </body>
 </html>
 ```
@@ -350,7 +350,7 @@ tag:
 
 图示如下：
 
-![盒子模型](./../../../.vuepress/public/assets/images/css_box_model.assets/image-20240713145912718.png)
+![盒子模型](./../../../.vuepress/public/assets/images/front_end/css_box_model.assets/image-20240713145912718.png)
 
 **盒子的大小** **=** <span style="color: #e96900;">content</span> **+** **左右** <span style="color: #e96900;">padding</span> **+** **左右** <span style="color: #e96900;">border</span> **。**
 
@@ -600,7 +600,7 @@ tag:
     <span>我很好</span>
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, sint.</div>
     <hr>
-    <img src="../images/小姐姐.gif" alt="">
+    <img src="../images/front_end/小姐姐.gif" alt="">
     <div>小姐姐很想你呀</div>
 </body>
 </html>
@@ -809,7 +809,7 @@ tag:
 >        <div class="box box2">2</div>
 >        <div class="box box3">3</div>
 >        <hr>
->        <img src="../images/悟空.jpg" alt=""><img class="second" src="../images/悟空.jpg" alt=""><img src="../images/悟空.jpg" alt="">
+>        <img src="../images/front_end/悟空.jpg" alt=""><img class="second" src="../images/front_end/悟空.jpg" alt=""><img src="../images/front_end/悟空.jpg" alt="">
 >    </body>
 >    </html>
 >    ```
@@ -858,7 +858,7 @@ tag:
 >        <div id="d1">我是一个块级元素</div>
 >        <div>我是一段文字</div>
 >        <hr>
->        <img src="../images/悟空.jpg" alt="悟空">
+>        <img src="../images/front_end/悟空.jpg" alt="悟空">
 >        <div>我是一段文字</div>
 >        <hr>
 >        <span class="one">人之初</span><span class="two">性本善</span><span class="three">性相近</span>
@@ -1490,7 +1490,7 @@ tag:
 <body>
     <div class="outer">
         <span>出来玩啊？</span>
-        <img src="../images/悟空.jpg" alt="">
+        <img src="../images/front_end/悟空.jpg" alt="">
     </div>
 </body>
 </html>
@@ -1547,9 +1547,9 @@ tag:
         <span class="s2">性本善</span>
         <span class="s3">性相近</span>
         <hr>
-        <img src="../images/悟空.jpg" alt="">
-        <img src="../images/悟空.jpg" alt="">
-        <img src="../images/悟空.jpg" alt="">
+        <img src="../images/front_end/悟空.jpg" alt="">
+        <img src="../images/front_end/悟空.jpg" alt="">
+        <img src="../images/front_end/悟空.jpg" alt="">
     </div>
 </body>
 </html>
@@ -1596,7 +1596,7 @@ tag:
 </head>
 <body>
     <div>
-        <img src="../images/我的自拍.jpg" alt="悟空">
+        <img src="../images/front_end/我的自拍.jpg" alt="悟空">
     </div>
 </body>
 </html>

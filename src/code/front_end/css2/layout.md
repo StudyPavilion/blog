@@ -19,7 +19,7 @@ tag:
 
 - 版心可以是一个，也可以是多个。
 
-  ![版心](./../../../.vuepress/public/assets/images/layout.assets/image-20240715155854946.png)
+  ![版心](./../../../.vuepress/public/assets/images/front_end/layout.assets/image-20240715155854946.png)
 
 ## 2. 常用布局名词
 

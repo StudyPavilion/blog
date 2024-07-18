@@ -382,7 +382,7 @@ tag:
            </thead>
            <tbody>
                <tr>
-                   <td rowspan="3"><img src="./../../../.vuepress/public/assets/images/html_basics.assets/image-20240702174500270.png" alt="文件结构" style="zoom:50%;" /></td>
+                   <td rowspan="3"><img src="./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240702174500270.png" alt="文件结构" style="zoom:50%;" /></td>
                    <td><span style="color: #e96900;">./</span></td>
                    <td>同级</td>
                    <td>引入【怪兽.jpg】<span style="color: #e96900;">&lt;img src="./怪兽.jpg"></span></td>
@@ -404,7 +404,7 @@ tag:
 
    1. 本地绝对路径： **<span style="color: #e96900;">E:/a/b/c/奥特曼.jpg</span>** 。（很少使用）
 
-   2. 网络绝对路径： [http://www.atguigu.com/images/index_new/logo.png ](http://www.atguigu.com/images/index_new/logo.png )
+   2. 网络绝对路径： [http://www.atguigu.com/images/front_end/index_new/logo.png ](http://www.atguigu.com/images/front_end/index_new/logo.png )
 
       > [!tip]
       >
@@ -851,7 +851,7 @@ tag:
 
 1. 一个完整的表格由：**表格标题**、**表格头部**、**表格主体**、**表格脚注**，四部分组成。
 
-   ![完整表格结构](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240704155509406.png)
+   ![完整表格结构](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240704155509406.png)
 
 2. 表格涉及到的标签：
 
@@ -869,11 +869,11 @@ tag:
 
    **<span style="color: #e96900;">th</span>** 、 **<span style="color: #e96900;">td</span>** ：每一个单元格（备注：表格头部中用 **<span style="color: #e96900;">th</span>** ，表格主体、表格脚注中用： **<span style="color: #e96900;">td</span>** ）
 
-   ![表格头部](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240704155807388.png)
+   ![表格头部](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240704155807388.png)
 
-   ![表格主体](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240704155832560.png)
+   ![表格主体](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240704155832560.png)
 
-   ![表格脚注](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240704155848690.png)
+   ![表格脚注](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240704155848690.png)
 
 3. 具体编码
 
@@ -1109,7 +1109,7 @@ tag:
 
 课程表效果：
 
-![课程表效果](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240704163247217.png)
+![课程表效果](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240704163247217.png)
 
 编写思路：
 
@@ -1902,11 +1902,11 @@ tag:
 
    鼠标右键 => 检查 => 切换设备仿真
 
-   ![检查](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240707223546126.png)
+   ![检查](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240707223546126.png)
 
-   ![image-20240707225043895](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240707225043895.png)
+   ![image-20240707225043895](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240707225043895.png)
 
-   ![修改仿真设备](./../../../.vuepress/public/assets/images/html_basics.assets/image-20240707224122487.png)
+   ![修改仿真设备](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/image-20240707224122487.png)
 
 4. 配置网页关键字
 
@@ -2006,4 +2006,4 @@ tag:
 
 ## 17. HTML总结
 
-![HTML总结](./../../../.vuepress/public/assets/images/html_basics.assets/HTML%E6%80%BB%E7%BB%93.svg)
+![HTML总结](./../../../.vuepress/public/assets/images/front_end/html_basics.assets/HTML%E6%80%BB%E7%BB%93.svg)

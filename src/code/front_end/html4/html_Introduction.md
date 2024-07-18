@@ -56,5 +56,5 @@ tag:
 
 从 HTML 1.0 开始发展，期间经历了很多版本，目前HTML的最新标准是：HMTL 5，具体发展史如图（了解即可）。
 
-![发展历史](./../../../../src/.vuepress/public/assets/images/html_Introduction.assets/image-20240627184317887.png)
+![发展历史](./../../../../src/.vuepress/public/assets/images/front_end/html_Introduction.assets/image-20240627184317887.png)
 

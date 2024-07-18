@@ -13,7 +13,7 @@ tag:
 
 ## 1. CSS简介
 
-![CSS](./../../../.vuepress/public/assets/images/css_basics.assets/image-20240708181600689.png)
+![CSS](./../../../.vuepress/public/assets/images/front_end/front_end/css_basics.assets/image-20240708181600689.png)
 
 - <span style="color: #e96900;">CSS </span>的全称为：层叠样式表 ( <span style="color: #e96900;">Cascading Style Sheets</span> ) 。
 - <span style="color: #e96900;">CSS </span>也是一种标记语言，用于给 <span style="color: #e96900;">HTML </span>结构设置样式，例如：文字大小、颜色、元素宽高等等。
@@ -106,7 +106,7 @@ tag:
       <p>深圳欢迎你</p>
       <p>武汉欢迎你</p>
       <p>西安欢迎你</p>
-      <!-- <img src="../images/小姐姐.gif" alt="小姐姐"> -->
+      <!-- <img src="../images/front_end/小姐姐.gif" alt="小姐姐"> -->
   </body>
   </html>
   ```
@@ -199,7 +199,7 @@ tag:
   >
   > 备注2：选择器与声明块之间，属性名与属性值之间，均有一个空格，理论上能省略，但最好还是写上。
 
-  ![CSS 结构](./../../../.vuepress/public/assets/images/css_basics.assets/image-20240708220729402.png)
+  ![CSS 结构](./../../../.vuepress/public/assets/images/front_end/css_basics.assets/image-20240708220729402.png)
 
 - 注释的写法：
 

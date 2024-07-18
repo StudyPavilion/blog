@@ -67,7 +67,7 @@
     height: 36px;
     background-color: #DD302D;
     vertical-align: top;
-    background-image: url('../images/serch_icon.png');
+    background-image: url('../images/front_end/serch_icon.png');
     background-repeat: no-repeat;
     background-position: 28px 6px;
 }
@@ -217,7 +217,7 @@
 .other-nav-list .picture {
     width: 48px;
     height: 48px;
-    background-image: url('../images/精灵图-侧边功能.png');
+    background-image: url('../images/front_end/精灵图-侧边功能.png');
 }
 
 .other-nav-list:nth-child(1) li:nth-child(1) .picture {

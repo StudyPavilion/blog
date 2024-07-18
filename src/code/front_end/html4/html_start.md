@@ -53,7 +53,7 @@ tag:
 
    > [!tip]
    >
-   > ![双标签](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627202037012.png)
+   > ![双标签](./../../../../src/.vuepress/public/assets/images/front_end/html_start.assets/image-20240627202037012.png)
    >
    > 示例代码：
    >
@@ -65,7 +65,7 @@ tag:
 
     > [!tip]
     >
-    > ![单标签](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627202458692.png)
+    > ![单标签](./../../../../src/.vuepress/public/assets/images/front_end/html_start.assets/image-20240627202458692.png)
     >
     > ```html
     > <input>
@@ -109,7 +109,7 @@ tag:
 
    > [!tip]
    >
-   > ![标签属性](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627203318654.png)
+   > ![标签属性](./../../../../src/.vuepress/public/assets/images/front_end/html_start.assets/image-20240627203318654.png)
    >
    > 例如：
    >
@@ -192,7 +192,7 @@ tag:
    >
    > 4. 图示：
    >
-   >    ![图示](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240627235101564.png)
+   >    ![图示](./../../../../src/.vuepress/public/assets/images/front_end/html_start.assets/image-20240627235101564.png)
    >
    > 5. 代码：
    >
@@ -224,7 +224,7 @@ tag:
    >
    >    :::
    >
-   >    ![网页标题](./../../../../src/.vuepress/public/assets/images/html_start.assets/image-20240628000336082.png)
+   >    ![网页标题](./../../../../src/.vuepress/public/assets/images/front_end/html_start.assets/image-20240628000336082.png)
 
 ## 5. 安装 VSCode
 
@@ -474,11 +474,11 @@ tag:
 
    vscode => 管理 => 设置 => 扩展 => Emmet => Variables => 添加项 => 选择lang项 => 将值修改为zh-CN => 点击确定
 
-   ![管理 = >设置](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701222215221.png)
+   ![管理 = >设置](./../../../.vuepress/public/assets/images/front_end/html_start.assets/image-20240701222215221.png)
    
-   ![扩展 => Emmet => Variables => 添加项](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223344648.png)
+   ![扩展 => Emmet => Variables => 添加项](./../../../.vuepress/public/assets/images/front_end/html_start.assets/image-20240701223344648.png)
    
-   ![选择lang项 => 将值修改为zh-CN => 点击确定](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701223744131.png)
+   ![选择lang项 => 将值修改为zh-CN => 点击确定](./../../../.vuepress/public/assets/images/front_end/html_start.assets/image-20240701223744131.png)
    
    测试
    
@@ -507,8 +507,8 @@ tag:
    >
    > 示例：
    >
-   > ![favicon.ico位置](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224719419.png)
+   > ![favicon.ico位置](./../../../.vuepress/public/assets/images/front_end/html_start.assets/image-20240701224719419.png)
    >
    > 效果：
    >
-   > ![网页图标](./../../../.vuepress/public/assets/images/html_start.assets/image-20240701224941756.png)
+   > ![网页图标](./../../../.vuepress/public/assets/images/front_end/html_start.assets/image-20240701224941756.png)

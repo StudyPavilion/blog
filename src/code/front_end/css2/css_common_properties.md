@@ -17,7 +17,7 @@ tag:
 
 - 规律：像素点越小，呈现的内容就越清晰、越细腻。
 
-  ![像素](./../../../.vuepress/public/assets/images/css_common_properties.assets/image-20240711223953389.png)
+  ![像素](./../../../.vuepress/public/assets/images/front_end/css_common_properties.assets/image-20240711223953389.png)
 
   > [!tip]
   >
@@ -284,7 +284,7 @@ color: #ff998866;/* 可简为：#f986 */
 
   - 色相：取值范围是 <span style="color: #e96900;">0~360</span> 度，具体度数对应的颜色如下图：
 
-    ![色相](./../../../.vuepress/public/assets/images/css_common_properties.assets/image-20240711230336431.png)
+    ![色相](./../../../.vuepress/public/assets/images/front_end/css_common_properties.assets/image-20240711230336431.png)
 
   - 饱和度：取值范围是 <span style="color: #e96900;">0%~100%</span> 。（向色相中对应颜色中添加灰色， <span style="color: #e96900;">0%</span> 全灰， <span style="color: #e96900;">100%</span> 没有灰）
 
@@ -370,7 +370,7 @@ color: #ff998866;/* 可简为：#f986 */
   
 - 借助控制台看样式：
 
-  ![控制台看样式](./../../../.vuepress/public/assets/images/css_common_properties.assets/image-20240712155904032.png)
+  ![控制台看样式](./../../../.vuepress/public/assets/images/front_end/css_common_properties.assets/image-20240712155904032.png)
   
 - 示例：
 
@@ -1312,7 +1312,7 @@ color: #ff998866;/* 可简为：#f986 */
       </div>
       <hr>
       <div>
-          atguigu尚硅谷x<img src="../images/我的自拍.jpg">
+          atguigu尚硅谷x<img src="../images/front_end/我的自拍.jpg">
       </div>
       <hr>
       <table border="1" cellspacing="0">
@@ -1373,9 +1373,9 @@ color: #ff998866;/* 可简为：#f986 */
             /* 列表符号的位置 */
             /* list-style-position: inside; */
             /* 自定义列表符号 */
-            /* list-style-image: url("../images/video.gif"); */
+            /* list-style-image: url("../images/front_end/video.gif"); */
             /* 复合属性 */
-            list-style: decimal url("../images/video.gif") inside;
+            list-style: decimal url("../images/front_end/video.gif") inside;
         }
         li {
             background-color: skyblue;
@@ -1626,7 +1626,7 @@ color: #ff998866;/* 可简为：#f986 */
             /* 设置背景颜色，默认值是transparent */
             background-color: skyblue;
             /* 设置背景图片 */
-            background-image: url(../images/悟空.jpg);
+            background-image: url(../images/front_end/悟空.jpg);
             /* 设置背景图片的重复方式 */
             background-repeat: no-repeat;
             /* 控制背景图片的位置——第一种写法：用关键词 */
@@ -1634,7 +1634,7 @@ color: #ff998866;/* 可简为：#f986 */
             /* 控制背景图片的位置——第二种写法：用具体的像素值 */
             background-position: 100px 200px;
             /* 复合属性 */
-            background: url(../images/悟空.jpg) no-repeat 100px 200px;
+            background: url(../images/front_end/悟空.jpg) no-repeat 100px 200px;
             
         }
     </style>
@@ -1679,7 +1679,7 @@ color: #ff998866;/* 可简为：#f986 */
             width: 400px;
             height: 400px;
             background-color: skyblue;
-            cursor: url("../images/arrow.png"),pointer;
+            cursor: url("../images/front_end/arrow.png"),pointer;
         }
         button {
             cursor: pointer;

@@ -535,13 +535,13 @@ CSS选择器整体分类两大类：
 
    > [!tip]
    >
-   > ![父元素](./../../../.vuepress/public/assets/images/css_selector.assets/image-20240709112623600.png)
+   > ![父元素](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709112623600.png)
 
 2. 子元素：被父元素 <span style="color: red;">**直接**</span> 包含的元素（简记：儿子元素）。
 
    > [!tip]
    >
-   > ![image-20240709172533688](./../../../.vuepress/public/assets/images/css_selector.assets/image-20240709172533688.png)
+   > ![image-20240709172533688](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709172533688.png)
 
 3. 祖先元素：父亲的父亲......，一直往外找，都是祖先。
 
@@ -551,7 +551,7 @@ CSS选择器整体分类两大类：
    >
    > 例如：张三的父亲，也算是张三的祖先，但一般还是称呼：父亲。
    >
-   > ![祖先元素](./../../../.vuepress/public/assets/images/css_selector.assets/image-20240709113355469.png)
+   > ![祖先元素](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709113355469.png)
 
 4. 后代元素：儿子的儿子......，一直往里找，都是后代。
 
@@ -561,13 +561,13 @@ CSS选择器整体分类两大类：
    >
    > 例如：张三的儿子，也算是张三的后代，但一般还是称呼：儿子。
    >
-   > ![后代元素](./../../../.vuepress/public/assets/images/css_selector.assets/image-20240709113515855.png)
+   > ![后代元素](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709113515855.png)
 
 5. 兄弟元素：具有相同父元素的元素，互为兄弟元素。
 
    > [!tip]
    >
-   > ![兄弟元素](./../../../.vuepress/public/assets/images/css_selector.assets/image-20240709113616672.png)
+   > ![兄弟元素](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709113616672.png)
 
 ### 2.4 后代选择器
 
@@ -734,7 +734,7 @@ CSS选择器整体分类两大类：
 
   2. 子、孙子、重孙子、重重孙子 ...... <span style="color: red;">统称后代</span>！， **子** 就是指 **儿子** 。
 
-     ![后代](./../../../.vuepress/public/assets/images/css_selector.assets/image-20240709163223920.png)
+     ![后代](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709163223920.png)
 
 ### 2.6 兄弟选择器
 
@@ -2224,10 +2224,10 @@ CSS选择器整体分类两大类：
   
   5. 图示：
   
-     ![权重](./../../../.vuepress/public/assets/images/css_selector.assets/image-20240709181036154.png)
+     ![权重](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709181036154.png)
   
 - VSCode 快速查看选择器的优先级（权重）
 
   鼠标放在选择器上，便会出现该选择器的权重
 
-  ![选择器权重](./../../../.vuepress/public/assets/images/css_selector.assets/QQ_1720793611262.png)
+  ![选择器权重](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/QQ_1720793611262.png)

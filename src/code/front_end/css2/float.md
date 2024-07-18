@@ -15,7 +15,7 @@ tag:
 
 在最初，浮动是用来实现文字环绕图片效果的，现在浮动是主流的页面布局方式之一。
 
-![浮动](./../../../.vuepress/public/assets/images/float.assets/image-20240714170744798.png)
+![浮动](./../../../.vuepress/public/assets/images/front_end/float.assets/image-20240714170744798.png)
 
 示例：
 
@@ -46,7 +46,7 @@ tag:
 </head>
 <body>
     <div>
-        <img src="../images/我的自拍.jpg" alt="">
+        <img src="../images/front_end/我的自拍.jpg" alt="">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, minus magnam accusamus eum laborum ducimus possimus beatae fugit illum molestias odit et asperiores adipisci sunt dolorem qui autem enim excepturi alias ab unde temporibus. Sapiente labore a magnam commodi itaque architecto quos doloribus voluptates perferendis rem, earum consectetur. Tempora inventore ducimus veritatis voluptatem deleniti rem laboriosam. Officiis, impedit explicabo! Impedit labore ea et vero rerum nihil in cum qui, itaque blanditiis eius nemo est? Tempora explicabo voluptates consectetur officia aperiam eos impedit veritatis necessitatibus quidem deleniti ea, in odit cum ex harum voluptas, quos eveniet quae voluptate aspernatur quod! Nostrum?
     </div>
     <hr>
@@ -131,7 +131,7 @@ tag:
 
 练习1：盒子1右浮动，效果如下
 
-![练习1](./../../../.vuepress/public/assets/images/float.assets/image-20240714171957106.png)
+![练习1](./../../../.vuepress/public/assets/images/front_end/float.assets/image-20240714171957106.png)
 
 :::normal-demo 演示
 
@@ -175,7 +175,7 @@ tag:
 
 练习2：盒子1左浮动，效果如下
 
-![练习2](./../../../.vuepress/public/assets/images/float.assets/image-20240714172018840.png)
+![练习2](./../../../.vuepress/public/assets/images/front_end/float.assets/image-20240714172018840.png)
 
 :::normal-demo 演示：
 
@@ -219,7 +219,7 @@ tag:
 
 练习3：所有盒子都浮动，效果如下
 
-![练习3](./../../../.vuepress/public/assets/images/float.assets/image-20240714172032181.png)
+![练习3](./../../../.vuepress/public/assets/images/front_end/float.assets/image-20240714172032181.png)
 
 :::normal-demo 演示
 
@@ -261,7 +261,7 @@ tag:
 
 练习4：所有盒子浮动后，盒子3落下来，效果如下
 
-![练习4](./../../../.vuepress/public/assets/images/float.assets/image-20240714172043893.png)
+![练习4](./../../../.vuepress/public/assets/images/front_end/float.assets/image-20240714172043893.png)
 
 :::normal-demo 演示
 
@@ -446,11 +446,11 @@ tag:
 
 整体效果如下：
 
-![浮动布局小练习](./../../../.vuepress/public/assets/images/float.assets/image-20240714172911590.png)
+![浮动布局小练习](./../../../.vuepress/public/assets/images/front_end/float.assets/image-20240714172911590.png)
 
 具体标注如下：
 
-![具体标注](./../../../.vuepress/public/assets/images/float.assets/image-20240714172949080.png)
+![具体标注](./../../../.vuepress/public/assets/images/front_end/float.assets/image-20240714172949080.png)
 
 示例：
 
