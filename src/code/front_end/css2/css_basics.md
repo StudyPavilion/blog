@@ -13,7 +13,7 @@ tag:
 
 ## 1. CSS简介
 
-![CSS](./../../../.vuepress/public/assets/images/front_end/front_end/css_basics.assets/image-20240708181600689.png)
+![CSS](./../../../.vuepress/public/assets/images/front_end/css_basics.assets/image-20240708181600689.png)
 
 - <span style="color: #e96900;">CSS </span>的全称为：层叠样式表 ( <span style="color: #e96900;">Cascading Style Sheets</span> ) 。
 - <span style="color: #e96900;">CSS </span>也是一种标记语言，用于给 <span style="color: #e96900;">HTML </span>结构设置样式，例如：文字大小、颜色、元素宽高等等。
