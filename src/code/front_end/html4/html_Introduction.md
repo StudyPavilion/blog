@@ -11,7 +11,7 @@ tag:
   - HTML
 ---
 
-## **1.什么是 HTML？**
+## 1.什么是 HTML？
 
 全称：HyperText Markup Language（超文本标记语言）。
 
