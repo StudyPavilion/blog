@@ -1,6 +1,6 @@
 ---
 date: 2024-07-23
-title: vue3 知识总览
+title: Vue3 知识总览
 icon: code
 dir:
   order: 6

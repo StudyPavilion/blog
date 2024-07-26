@@ -575,7 +575,7 @@ npm run serve
 
 可以用函数的方式，更加优雅的组织代码，让相关功能的代码更加有序的组织在一起。
 
-![CompositionAPI](./../../../../../../../课程/尚硅谷Vue3快速上手（2024）/资料/images/1696662249851-db6403a1-acb5-481a-88e0-e1e34d2ef53a.gif)
+![1696662249851-db6403a1-acb5-481a-88e0-e1e34d2ef53a](./../../../.vuepress/public/assets/images/front_end/vue3.assets/1696662249851-db6403a1-acb5-481a-88e0-e1e34d2ef53a-1721987126900-1.gif)
 
 ![CompositionAPI](./../../../.vuepress/public/assets/images/front_end/vue3.assets/1696662256560-7239b9f9-a770-43c1-9386-6cc12ef1e9c0.gif)
 
