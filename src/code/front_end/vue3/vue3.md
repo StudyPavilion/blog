@@ -985,6 +985,8 @@ export default defineConfig({
 
 参考文章：[66 - vue3 - 新特性-defineOptions & defineModel_vue definemodel-CSDN博客](https://blog.csdn.net/m0_58250910/article/details/133885842)
 
+https://cn.vuejs.org/api/sfc-script-setup.html#defineoptions
+
 ### 3.3 ref 创建：基本类型的响应式数据
 
 - **作用：**定义响应式变量。

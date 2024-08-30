@@ -11,3 +11,15 @@ tag:
   - nginx
 ---
 
+## 1. nginx 介绍
+
+## 2. nginx 安装
+
+> [!tip]
+>
+> ubuntu 版本：24.04
+
+```sh
+docker pull nginx
+```
+
