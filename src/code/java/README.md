@@ -5,7 +5,7 @@ icon: code
 star: true
 sticky: 20
 dir:
-  order: 1
+  order: 2
   text: Java
   link: false
 ---
