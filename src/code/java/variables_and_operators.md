@@ -1,8 +1,15 @@
+---
+date: 2024-09-01
+order: 2
+category:
+  - Java
+tag:
+  - Java 基础
+---
+
 # 第02章_变量与运算符
 
 讲师：尚硅谷-宋红康（江湖人称：康师傅）
-
-官网：[http://www.atguigu.com](http://www.atguigu.com/)
 
 ***
 
