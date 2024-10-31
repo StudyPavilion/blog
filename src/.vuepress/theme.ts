@@ -98,7 +98,37 @@ export default hopeTheme({
       categoryId: "DIC_kwDOLOUMTM4CexWE",
     },
 
-    
+    markdownHint: {
+      // 启用提示容器，默认启用
+      hint: true,
+      // 启用 GFM 警告
+      alert: true,
+    },
+
+    markdownImage: ({
+      // 启用 figure
+      figure: true,
+      // 启用图片懒加载
+      lazyload: true,
+      // 启用图片标记
+      mark: true,
+      // 启用图片大小
+      size: true,
+    }),
+
+    markdownTab: {
+      // 启用代码选项卡
+      codeTabs: true,
+      // 启用选项卡
+      tabs: true,
+    },
+
+    markdownMath: {
+    //   // install katex before enabling it
+      type: "katex",
+    //   // or install mathjax-full before enabling it
+    //   type: "mathjax",
+    },
 
 
     // 在启用之前需要安装 @waline/client
@@ -118,15 +148,15 @@ export default hopeTheme({
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
-      alert: true,
+      // alert: true,
       align: true,
       attrs: true,
-      codetabs: true,
+      // codetabs: true,
       component: true,
       demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
+      // figure: true,
+      // imgLazyload: true,
+      // imgSize: true,
       include: true,
       mark: true,
       stylize: [
@@ -144,7 +174,7 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
+      // tabs: true,
       vPre: true,
 
       // 在启用之前安装 chart.js
@@ -162,7 +192,7 @@ export default hopeTheme({
       // gfm: true,
 
       // 在启用之前安装 katex
-      katex: true,
+      // katex: true,
 
       // 在启用之前安装 mathjax-full
       // mathjax: true,
