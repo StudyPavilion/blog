@@ -16,6 +16,9 @@ export const zhSidebarConfig = sidebar({
   "/code/front_end/html4": "structure",
   "/code/front_end/css2": "structure",
 
+  "/machine_learning/": "structure",
+  // "/machine_learning/lesson_one": "structure",
+  // "/machine_learning/lesson_two": "structure",
 
 
   // fallback
