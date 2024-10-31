@@ -2224,7 +2224,7 @@ CSS选择器整体分类两大类：
   
   5. 图示：
   
-     ![权重](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/image-20240709181036154.png)
+     ![权重](./../../../.vuepress/public/assets/images/front_end/css_selector.assets/weight.jpg)
   
 - VSCode 快速查看选择器的优先级（权重）
 
