@@ -3129,7 +3129,7 @@ function sendToy(){
 </script>
 ```
 
-### 6.6 $refs、$parent
+### 6.6 refs、parent
 
 1. 概述：
 
