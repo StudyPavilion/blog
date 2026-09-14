@@ -1,6 +1,5 @@
 ---
 icon: circle-info
-cover: /assets/images/front_end/cover3.jpg
 ---
 
 # 介绍页
